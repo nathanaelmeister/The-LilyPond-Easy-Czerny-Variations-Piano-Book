@@ -44,4 +44,3 @@
   \include "scores-all/08-LH-score-easyHeads.ily"
   \include "scores-all/09-LH-score-easyHeads.ily"
 }
-

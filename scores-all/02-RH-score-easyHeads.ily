@@ -12,6 +12,6 @@
   }
   \layout { }
   \header {
-    opus =  \markup \small { "nach Op. 599, Nr. 14" }
+    opus =  \markup \tiny { "nach Op. 599, Nr. 14" }
   }
 }
