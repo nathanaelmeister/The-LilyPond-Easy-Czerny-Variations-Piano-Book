@@ -8,6 +8,7 @@
 
 %\include "global-files/paper.ily"
 
+%{
 \bookpart {
 
   \include "header-files/01-easy-header.ily"
@@ -42,7 +43,7 @@
   \include "scores-01/09-LH-score-easyHeads.ily"
 }
 
-% Dritter Teil, die Melodie Beide Hände
+% Dritter Teil, die Melodie für Beide Hände
 
 \bookpart {
 
@@ -59,20 +60,25 @@
   \include "scores-02/09-score.ily"
 }
 
+%}
 % Vierter Teil - einfache Begleitung
+
+\include "input-files/LeftHand_Level-2.ily"
+\include "input-files/LeftHand_Level-3.ily"
+\include "input-files/LeftHand_Level-4.ily"
 
 \bookpart {
   \include "header-files/02-header.ily"
-  \include "scores-level-2/01-score.ily"
-  \include "scores-level-2/02-score.ily"
-  \include "scores-level-2/03-score.ily"
-  \include "scores-level-2/04-score.ily"
-  \include "scores-level-2/05-score.ily"
+  \include "scores-03/01-score.ily"
+  \include "scores-03/02-score.ily"
+  \include "scores-03/03-score.ily"
+  \include "scores-03/04-score.ily"
+  \include "scores-03/05-score.ily"
   \pageBreak
-  \include "scores-level-2/06-score.ily"
-  \include "scores-level-2/07-score.ily"
-  \include "scores-level-2/08-score.ily"
-  \include "scores-level-2/09-score.ily"
+  \include "scores-03/06-score.ily"
+  \include "scores-03/07-score.ily"
+  \include "scores-03/08-score.ily"
+  \include "scores-03/09-score.ily"
   \noPageBreak
   \include "footnotes/begleitung.ily"
 }
@@ -82,16 +88,16 @@
 
 \bookpart {
   \include "header-files/03-header.ily"
-  \include "scores-level-3/01-score.ily"
-  \include "scores-level-3/02-score.ily"
-  \include "scores-level-3/03-score.ily"
-  \include "scores-level-3/04-score.ily"
-  \include "scores-level-3/05-score.ily"
+  \include "scores-04/01-score.ily"
+  \include "scores-04/02-score.ily"
+  \include "scores-04/03-score.ily"
+  \include "scores-04/04-score.ily"
+  \include "scores-04/05-score.ily"
   \pageBreak
-  \include "scores-level-3/06-score.ily"
-  \include "scores-level-3/07-score.ily"
-  \include "scores-level-3/08-score.ily"
-  \include "scores-level-3/09-score.ily"
+  \include "scores-04/06-score.ily"
+  \include "scores-04/07-score.ily"
+  \include "scores-04/08-score.ily"
+  \include "scores-04/09-score.ily"
   \noPageBreak
   \include "footnotes/akkord.ily"
 }
@@ -100,16 +106,16 @@
 
 \bookpart {
   \include "header-files/04-header.ily"
-  \include "scores-level-4/01-score.ily"
-  \include "scores-level-4/02-score.ily"
-  \include "scores-level-4/03-score.ily"
-  \include "scores-level-4/04-score.ily"
-  \include "scores-level-4/05-score.ily"
+  \include "scores-05/01-score.ily"
+  \include "scores-05/02-score.ily"
+  \include "scores-05/03-score.ily"
+  \include "scores-05/04-score.ily"
+  \include "scores-05/05-score.ily"
   \pageBreak
-  \include "scores-level-4/06-score.ily"
-  \include "scores-level-4/07-score.ily"
-  \include "scores-level-4/08-score.ily"
-  \include "scores-level-4/09-score.ily"
+  \include "scores-05/06-score.ily"
+  \include "scores-05/07-score.ily"
+  \include "scores-05/08-score.ily"
+  \include "scores-05/09-score.ily"
   \noPageBreak
   \include "footnotes/arpeggio.ily"
   \include "footnotes/alberti-bass.ily"
