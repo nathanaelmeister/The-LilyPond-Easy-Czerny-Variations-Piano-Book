@@ -3,10 +3,10 @@
     instrumentName = \markup { \number "7." }}
   <<
   \new Voice {
-    \relative c' {
+    \relative c {
       \clef bass
-      \numericTimeSignature
       \time 4/4
+      \numericTimeSignature
       \key c \major
       \easyHeadsOn
 
