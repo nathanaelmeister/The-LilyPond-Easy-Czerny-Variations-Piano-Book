@@ -1,0 +1,82 @@
+.
+├── Easy-Book.ly
+├── Easy-Book.pdf
+├── file-structure
+├── footnotes
+│   ├── akkord.ily
+│   ├── alberti-bass.ily
+│   ├── arpeggio.ily
+│   ├── begleitung.ily
+│   ├── melody.ily
+│   └── small-melody.ily
+├── global-files
+│   ├── book-title-page.ily
+│   ├── copyright.ily
+│   ├── easyHeads.ily
+│   ├── LeftHand_Level-2.ily
+│   ├── LeftHand_Level-3.ily
+│   ├── LeftHand_Level-4.ily
+│   ├── melodies.ily
+│   ├── paper.ily
+│   ├── paper.ily~
+│   └── placeholder.ily
+├── header-files
+│   ├── 01-easy-header.ily
+│   ├── 01-header.ily
+│   ├── 02-easy-header.ily
+│   ├── 02-header.ily
+│   ├── 03-easy-header.ily
+│   ├── 03-easy-small-header.ily
+│   ├── 03-header.ily
+│   ├── 04-header.ily
+│   └── header-title.ily
+├── scores-easyHeads
+│   ├── 01-LH-score-easyHeads.ily
+│   ├── 01-RH-score-easyHeads.ily
+│   ├── 02-LH-score-easyHeads.ily
+│   ├── 02-RH-score-easyHeads.ily
+│   ├── 03-LH-score-easyHeads.ily
+│   ├── 03-RH-score-easyHeads.ily
+│   ├── 04-LH-score-easyHeads.ily
+│   ├── 04-RH-score-easyHeads.ily
+│   ├── 05-LH-score-easyHeads.ily
+│   ├── 05-RH-score-easyHeads.ily
+│   ├── 06-LH-score-easyHeads.ily
+│   ├── 06-RH-score-easyHeads.ily
+│   ├── 07-LH-score-easyHeads.ily
+│   ├── 07-RH-score-easyHeads.ily
+│   ├── 08-LH-score-easyHeads.ily
+│   ├── 08-RH-score-easyHeads.ily
+│   ├── 09-LH-score-easyHeads.ily
+│   └── 09-RH-score-easyHeads.ily
+├── scores-easyHeads-low
+│   ├── 01-LH-score-easyHeads.ily
+│   ├── 01-RH-score-easyHeads.ily
+│   ├── 02-LH-score-easyHeads.ily
+│   ├── 02-RH-score-easyHeads.ily
+│   ├── 03-LH-score-easyHeads.ily
+│   ├── 03-RH-score-easyHeads.ily
+│   ├── 04-LH-score-easyHeads.ily
+│   ├── 04-RH-score-easyHeads.ily
+│   ├── 05-LH-score-easyHeads.ily
+│   ├── 05-RH-score-easyHeads.ily
+│   ├── 06-LH-score-easyHeads.ily
+│   ├── 06-RH-score-easyHeads.ily
+│   ├── 07-LH-score-easyHeads.ily
+│   ├── 07-RH-score-easyHeads.ily
+│   ├── 08-LH-score-easyHeads.ily
+│   ├── 08-RH-score-easyHeads.ily
+│   ├── 09-LH-score-easyHeads.ily
+│   └── 09-RH-score-easyHeads.ily
+└── scores-easy-level-1
+    ├── 01-score.ily
+    ├── 02-score.ily
+    ├── 03-score.ily
+    ├── 04-score.ily
+    ├── 05-score.ily
+    ├── 06-score.ily
+    ├── 07-score.ily
+    ├── 08-score.ily
+    └── 09-score.ily
+
+6 directories, 73 files
