@@ -97,49 +97,50 @@ sixthArpeggio = {
 
 seventhArpeggio = {
   \repeat volta 2 {
-    g4 d' b d    | %1
-    fis, d' a d  | %2
-    fis, d' b d  | %3
-    fis, d' b g, | %4
+    c4 g' e g    | %1
+    b, g' d g  | %2
+    b, g' e g  | %3
+    b, g' e c, | %4
   }
 }
 
 eighthArpeggio = {
-  g4 b d   | %1
-  g, b d   | %2
-  g, b d   | %3
-  g, b d   | %4
-  fis, a d | %5
-  fis, a d | %6
-  g, b d   | %7
-  g, b d   | %8
-  g, b d   | %9
-  g, b d   | %10
-  g, b d   | %11
-  g, b d   | %12
-  fis, a d | %13
-  fis, a d | %14
-  g, b d   | %15
-  g, b d   | %16
+  c4 e g   | %1
+  c, e g   | %2
+  c, e g   | %3
+  c, e g   | %4
+  b, d g | %5
+  b, d g | %6
+  c, e g   | %7
+  c, e g   | %8
+  c, e g   | %9
+  c, e g   | %10
+  c, e g   | %11
+  c, e g   | %12
+  b, d g | %13
+  b, d g | %14
+  c, e g   | %15
+  c, e g   | %16
   \bar "|." 
 }
 
 ninthArpeggio = {
-  g4 b d   | %1
-  g, b d   | %2
-  g, b d   | %3
-  g, b d   | %4
-  fis, a d | %5
-  fis, a d | %6
-  g, b d   | %7
-  g, b d   | %8
-  g, b d   | %9
-  g, b d   | %10
-  g, b d   | %11
-  g, b d   | %12
-  fis, a d | %13
-  fis, a d | %14
-  g, b d   | %15
-  g, b d   | %16
+  c4 e g   | %1
+  c, e g   | %2
+  c, e g   | %3
+  c, e g   | %4
+  b, d g | %5
+  b, d g | %6
+  c, e g   | %7
+  c, e g   | %8
+  c, e g   | %9
+  c, e g   | %10
+  c, e g   | %11
+  c, e g   | %12
+  b, d g | %13
+  b, d g | %14
+  c, e g   | %15
+  c, e g   | %16
   \bar "|." 
 }
+

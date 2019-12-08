@@ -101,65 +101,66 @@ sixthChords = {
 
 seventhChords = {
   \repeat volta 2 {
-    <g b d>1  | %1
-    <g b d>   | %2
-    <fis a d> | %3
-    <g b d>   | %4
-    <g b d>   | %5
-    <g b d>   | %6
-    <fis a d> | %7
-    <g b d>   | %8
+    <c e g>1 | %1
+    <c e g>  | %2
+    <b d g>  | %3
+    <c e g>  | %4
+    <c e g>  | %5
+    <c e g>  | %6
+    <b d g>  | %7
+    <c e g>  | %8
   }
 }
 
 eighthChords = {
-  <g b d>2.                  | %1
-  r4 <g b d>-. <g b d>-.     | %2
-  r4 <g b d>-. <g b d>-.     | %3
-  r4 <g b d>-. <g b d>-.     | %4
-  r4 <fis a d>-. <fis a d>-. | %5
-  <fis a d>                  | %6
-  r4 <g b d>-. <g b d>-.     | %7
-  r4 <g b d>-. <g b d>-.     | %8
-  r4 <g b d>-. <g b d>-.     | %9
-  r4 <g b d>-. <g b d>-.     | %10
-  r4 <g b d>-. <g b d>-.     | %11
-  r4 <g b d>-. <g b d>-.     | %12
-  <g b d>2.                  | %13
-  <fis a d>                  | %14
-  <g b d>2 <g b d>4          | %15
-  <g b d>2.                  | %16
+  <c e g>2.              | %1
+  r4 <c e g>-. <c e g>-. | %2
+  r4 <c e g>-. <c e g>-. | %3
+  r4 <c e g>-. <c e g>-. | %4
+  r4 <b d g>-. <b d g>-. | %5
+  <b d g>                | %6
+  r4 <c e g>-. <c e g>-. | %7
+  r4 <c e g>-. <c e g>-. | %8
+  r4 <c e g>-. <c e g>-. | %9
+  r4 <c e g>-. <c e g>-. | %10
+  r4 <c e g>-. <c e g>-. | %11
+  r4 <c e g>-. <c e g>-. | %12
+  <c e g>2.              | %13
+  <b d g>                | %14
+  <c e g>2 <c e g>4      | %15
+  <c e g>2.              | %16
   \bar "|." 
 }
 
 ninthChords = {
-  <g b d>2.              | %1
-  g4( b d)               | %2
-  <g b d>2.              | %3
-  g4( b d)               | %4
-  <fis a d>2.            | %5
-  <fis a d>              | %6
+  <c e g>2.            | %1
+  c4( e g)             | %2
+  <c e g>2.            | %3
+  c4( e g)             | %4
+  <b d g>2.            | %5
+  <b d g>              | %6
   <<
-    {g2. }
+    {c2. }
     \\
-    {<b d>4-. <b d>-.}
+    {<e g>4-. <e g>-.}
   >>                   | %7
   <<
-    {g2. }
+    {c2. }
     \\
-    {r4 <b d>-. <b d>-.}
+    {r4 <e g>-. <e g>-.}
   >>                     | %8
-  <g b d>                | %9
-  g4( b d)               | %10
-  <g b d>2.              | %11
-  g4( b d)               | %12
-  <fis a d>2.            | %13
-  <fis a d>              | %14
+  <c e g>                | %9
+  c4( e g)               | %10
+  <c e g>2.              | %11
+  c4( e g)               | %12
+  <b d g>2.              | %13
+  <b d g>                | %14
     <<
-    {g2. }
+    {c2. }
     \\
-    {r4 <b d>-. <b d>-.}
+    {r4 <e g>-. <e g>-.}
   >>                     | %15
-  <g b d>                | %16
+  <c e g>                | %16
   \bar "|." 
 }
+
