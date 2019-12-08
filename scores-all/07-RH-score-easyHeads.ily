@@ -1,7 +1,7 @@
 \score {
   \new Staff \with {
     instrumentName = \markup { \number "7." }}
-  \relative c'' {
+  \relative c' {
     \clef treble
     \numericTimeSignature
     \time 4/4
