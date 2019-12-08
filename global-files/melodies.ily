@@ -85,51 +85,50 @@ sixthmelody = {
 }
 
 seventhmelody = {
-  g4 a b c | %1
-  d b d b | %2
-  a c a c | %3
-  b2 b | %4
-  d4 c b a | %5
-  g b d b | %6
-  c a c a | %7
-  g1 \bar "|." 
+  c4 d e f | %1
+  g e g e | %2
+  d f d f | %3
+  e2 e | %4
+  g4 f e d | %5
+  c e g e | %6
+  f d f d | %7
+  c1 \bar "|." 
 }
 
 eighthmelody = {
-  g2 g4 | %1
-  b2 b4 | %2
-  d2 d4 | %3
-  b2 b4 | %4
-  a2 a4 | %5
-  a4 b c | %6
-  b2. | %7
-  b2. | %8
-  g2 g4 | %9
-  b2 b4 | %10
-  d2 d4 | %11
-  b2 b4 | %12
-  d4 c b | %13
-  d c a | %14
-  g2 g4 | %15
-  g2. \bar "|." 
+  c2 c4 | %1
+  e2 e4 | %2
+  g2 g4 | %3
+  e2 e4 | %4
+  d2 d4 | %5
+  d4 e f | %6
+  e2. | %7
+  e2. | %8
+  c2 c4 | %9
+  e2 e4 | %10
+  g2 g4 | %11
+  e2 e4 | %12
+  g4 f e | %13
+  g f d | %14
+  c2 c4 | %15
+  c2. \bar "|." 
 }
 
 ninthmelody = {
-  d4 d d | %1
-  d2 b4 | %2
-  b b b | %3
-  b2 g4 | %4
-  a a a | %5
-  c b a | %6
-  b2 d4 | %7
-  g,2. | %8
-  d'4 d d | %9
-  d2 b4 | %10
-  b4 b b | %11
-  b2 g4 | %12
-  a a a | %13
-  a b a | %14
-  g2 b4 | %15
-  g2. \bar "|." 
+  g4 g g | %1
+  g2 e4 | %2
+  e e e | %3
+  e2 c4 | %4
+  d d d | %5
+  f e d | %6
+  e2 g4 | %7
+  c,2. | %8
+  g'4 g g | %9
+  g2 e4 | %10
+  e4 e e | %11
+  e2 c4 | %12
+  d d d | %13
+  d e d | %14
+  c2 e4 | %15
+  c2. \bar "|." 
 }
-
