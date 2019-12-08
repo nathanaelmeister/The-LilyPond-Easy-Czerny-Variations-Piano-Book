@@ -64,8 +64,6 @@
 % Vierter Teil - einfache Begleitung
 
 \include "input-files/LeftHand_Level-2.ily"
-\include "input-files/LeftHand_Level-3.ily"
-\include "input-files/LeftHand_Level-4.ily"
 
 \bookpart {
   \include "header-files/02-header.ily"
@@ -86,6 +84,8 @@
 % Fünfter Teil - ganze Akkorde
 %{
 
+\include "input-files/LeftHand_Level-3.ily"
+
 \bookpart {
   \include "header-files/03-header.ily"
   \include "scores-04/01-score.ily"
@@ -103,6 +103,8 @@
 }
 
 % Sechster Teil - Arpeggien
+
+\include "input-files/LeftHand_Level-4.ily"
 
 \bookpart {
   \include "header-files/04-header.ily"
