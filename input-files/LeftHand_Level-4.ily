@@ -96,12 +96,15 @@ sixthArpeggio = {
 }
 
 seventhArpeggio = {
-  \repeat volta 2 {
-    c4 g' e g  | %1
-    b, g' d g  | %2
-    b, g' e g  | %3
-    b, g' e c, | %4
-  }
+  c4 g' e g  | %1
+  b, g' d g  | %2
+  b, g' e g  | %3
+  b, g' e c, | %4
+  c4 g' e g  | %5
+  b, g' d g  | %6
+  b, g' e g  | %7
+  b, g' e c, | %8
+  \bar "|."
 }
 
 eighthArpeggio = {

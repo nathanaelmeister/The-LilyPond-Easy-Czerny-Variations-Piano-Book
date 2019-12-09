@@ -11,7 +11,7 @@
       \time 4/4
       \key c \major
       %\easyHeadsOn
-      \thirdmelody
+      \thirdMelArp
     }
     \new Staff = "left" \with {
       midiInstrument = "acoustic grand"

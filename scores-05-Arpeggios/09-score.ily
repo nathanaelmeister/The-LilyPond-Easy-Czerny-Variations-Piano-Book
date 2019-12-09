@@ -11,7 +11,7 @@
       \time 3/4
       \key g \major
       %\easyHeadsOn
-      \ninthmelody
+      \ninthMelArp
     }
     \new Staff = "left" \with {
       midiInstrument = "acoustic grand"

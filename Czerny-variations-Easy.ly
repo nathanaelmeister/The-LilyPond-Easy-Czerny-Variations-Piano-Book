@@ -105,6 +105,7 @@
 % Sechster Teil - Arpeggien
 
 \include "input-files/LeftHand_Level-4.ily"
+\include "input-files/melodies-arp.ily"
 
 \bookpart {
   \include "header-files/04-header.ily"
