@@ -35,7 +35,7 @@ thirdSimple = {
   }
   \repeat volta 2 {
     g'    | %9
-    c     | %10
+    c,    | %10
     g'    | %11
     c,    | %12
     c     | %13

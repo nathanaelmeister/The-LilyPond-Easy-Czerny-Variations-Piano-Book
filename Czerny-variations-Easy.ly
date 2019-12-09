@@ -1,14 +1,13 @@
 \version "2.18.2"
 
-  #(set-default-paper-size "a4")
-  #(set-global-staff-size 26)
+#(set-default-paper-size "a4")
+#(set-global-staff-size 26)
 
 \include "global-files/easyHeads.ily"
 \include "input-files/melodies.ily"
 
 %\include "global-files/paper.ily"
 
-%{
 \bookpart {
 
   \include "header-files/01-easy-header.ily"
@@ -60,7 +59,6 @@
   \include "scores-02-BH/09-score.ily"
 }
 
-%}
 % Vierter Teil - einfache Begleitung
 
 \include "input-files/LeftHand_Level-2.ily"
@@ -72,7 +70,7 @@
   \include "scores-03-Simple/03-score.ily"
   \include "scores-03-Simple/04-score.ily"
   \include "scores-03-Simple/05-score.ily"
-  \pageBreak
+  %\pageBreak
   \include "scores-03-Simple/06-score.ily"
   \include "scores-03-Simple/07-score.ily"
   \include "scores-03-Simple/08-score.ily"
@@ -82,9 +80,9 @@
 }
 
 % Fünfter Teil - ganze Akkorde
-%{
 
 \include "input-files/LeftHand_Level-3.ily"
+\include "input-files/melodies-chords.ily"
 
 \bookpart {
   \include "header-files/03-header.ily"
@@ -93,7 +91,7 @@
   \include "scores-04-Chords/03-score.ily"
   \include "scores-04-Chords/04-score.ily"
   \include "scores-04-Chords/05-score.ily"
-  \pageBreak
+  %\pageBreak
   \include "scores-04-Chords/06-score.ily"
   \include "scores-04-Chords/07-score.ily"
   \include "scores-04-Chords/08-score.ily"
@@ -114,7 +112,7 @@
   \include "scores-05-Arpeggios/03-score.ily"
   \include "scores-05-Arpeggios/04-score.ily"
   \include "scores-05-Arpeggios/05-score.ily"
-  \pageBreak
+  %\pageBreak
   \include "scores-05-Arpeggios/06-score.ily"
   \include "scores-05-Arpeggios/07-score.ily"
   \include "scores-05-Arpeggios/08-score.ily"
@@ -123,4 +121,3 @@
   \include "footnotes/arpeggio.ily"
   \include "footnotes/alberti-bass.ily"
 }
-%}

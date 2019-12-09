@@ -5,7 +5,7 @@
     \new Staff = "right" \with {
       midiInstrument = "acoustic grand"
     }
-    \relative c'' {
+    \relative c' {
       \clef treble
       \time 3/4
       \key c \major

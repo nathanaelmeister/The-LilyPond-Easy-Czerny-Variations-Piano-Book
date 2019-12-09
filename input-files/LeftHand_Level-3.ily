@@ -118,7 +118,7 @@ eighthChords = {
   r4 <c e g>-. <c e g>-. | %3
   r4 <c e g>-. <c e g>-. | %4
   r4 <b d g>-. <b d g>-. | %5
-  <b d g>                | %6
+  <b d g>2.              | %6
   r4 <c e g>-. <c e g>-. | %7
   r4 <c e g>-. <c e g>-. | %8
   r4 <c e g>-. <c e g>-. | %9
@@ -133,34 +133,34 @@ eighthChords = {
 }
 
 ninthChords = {
-  <c e g>2.            | %1
-  c4( e g)             | %2
-  <c e g>2.            | %3
-  c4( e g)             | %4
-  <b d g>2.            | %5
-  <b d g>              | %6
+  <c e g>2.              | %1
+  c4( e g)               | %2
+  <c, e g>2.             | %3
+  c4( e g)               | %4
+  <b, d g>2.             | %5
+  <b d g>                | %6
   <<
     {c2. }
     \\
-    {<e g>4-. <e g>-.}
-  >>                   | %7
+    {r4 <e g>-. <e g>-.}
+  >>                     | %7
   <<
     {c2. }
     \\
     {r4 <e g>-. <e g>-.}
   >>                     | %8
-  <c e g>                | %9
+  <c e g>2.              | %9
   c4( e g)               | %10
-  <c e g>2.              | %11
+  <c, e g>2.             | %11
   c4( e g)               | %12
-  <b d g>2.              | %13
+  <b, d g>2.             | %13
   <b d g>                | %14
     <<
     {c2. }
     \\
     {r4 <e g>-. <e g>-.}
   >>                     | %15
-  <c e g>                | %16
+  <c e g>2.              | %16
   \bar "|." 
 }
 

@@ -11,7 +11,7 @@
       \time 3/4
       \key c \major
       %\easyHeadsOn
-      \fifthmelody
+      \fifthMelChords
     }
     \new Staff = "left" \with {
       midiInstrument = "acoustic grand"

@@ -7,21 +7,19 @@
     }
     \relative c'' {
       \clef treble
-      %\numericTimeSignature
       \time 4/4
-      \key g \major
-      %\easyHeadsOn
+      \key c \major
+
       \seventhMelArp
     }
     \new Staff = "left" \with {
       midiInstrument = "acoustic grand"
     }
-    \relative c' {
+    \relative c {
       \clef bass
-      %\numericTimeSignature
       \time 4/4
-      \key g \major
-      %\easyHeadsOn
+      \key c \major
+
       \seventhArpeggio
     }
   >>
