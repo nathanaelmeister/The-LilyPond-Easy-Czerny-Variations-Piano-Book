@@ -16,7 +16,7 @@
     \new Staff = "left" \with {
       midiInstrument = "acoustic grand"
     }
-    \relative c {
+    \relative c' {
       \clef bass
       %\numericTimeSignature
       \time 3/4

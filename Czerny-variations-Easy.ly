@@ -1,10 +1,10 @@
 \version "2.18.2"
 
 #(set-default-paper-size "a4")
-#(set-global-staff-size 26)
+#(set-global-staff-size 24)
 
 \include "global-files/easyHeads.ily"
-\include "input-files/melodies.ily"
+\include "input-files/melody-1.ily"
 
 %\include "global-files/paper.ily"
 
@@ -61,7 +61,7 @@
 
 % Vierter Teil - einfache Begleitung
 
-\include "input-files/LeftHand_Level-2.ily"
+\include "input-files/LH-2-Simple.ily"
 
 \bookpart {
   \include "header-files/02-header.ily"
@@ -81,8 +81,8 @@
 
 % Fünfter Teil - ganze Akkorde
 
-\include "input-files/LeftHand_Level-3.ily"
-\include "input-files/melodies-chords.ily"
+\include "input-files/LH-3-Chords.ily"
+\include "input-files/melody-3-chords.ily"
 
 \bookpart {
   \include "header-files/03-header.ily"
@@ -102,8 +102,8 @@
 
 % Sechster Teil - Arpeggien
 
-\include "input-files/LeftHand_Level-4.ily"
-\include "input-files/melodies-arp.ily"
+\include "input-files/LH-4-Arpeggios.ily"
+\include "input-files/melody-4-Arpeggios.ily"
 
 \bookpart {
   \include "header-files/04-header.ily"

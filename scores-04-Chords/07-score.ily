@@ -7,10 +7,9 @@
     }
     \relative c'' {
       \clef treble
-      %\numericTimeSignature
       \time 4/4
-      \key g \major
-      %\easyHeadsOn
+      \key c \major
+
       \seventhMelChords
     }
     \new Staff = "left" \with {
@@ -18,10 +17,9 @@
     }
     \relative c {
       \clef bass
-      %\numericTimeSignature
       \time 4/4
-      \key g \major
-      %\easyHeadsOn
+      \key c \major
+
       \seventhChords
     }
   >>

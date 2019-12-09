@@ -1,3 +1,8 @@
+interlude = {
+  % 100 Recreations Nr. 1
+  c d e f g 
+}
+
 firstmelody = {
   c2 e4 e | %1 
   g g e2  | %2
@@ -140,3 +145,14 @@ ninthmelody = {
   c2.     | %16
   \bar "|." 
 }
+
+tenthmelody = {
+  % 100 Recreations Nr. 2
+  c d e f g
+}
+
+eleventhmelody = {
+  % Taktschule Nr. 14
+  c d e f g
+}
+
