@@ -1,17 +1,17 @@
 \score {
   \new Staff \with {
-    instrumentName = \markup { \number "9." }}
-  \relative c' {
+    instrumentName = \markup { \number "11." }}
+  \relative c'' {
     \clef treble
     \numericTimeSignature
     \time 3/4
     \key c \major
     \easyHeadsOn
 
-    \ninthmelody
+    \eleventhmelody
   }
   \layout { }
   \header {
-    opus =  \markup \tiny { "nach Op. 824, Nr. 12" }
+    opus =  \markup \tiny { "nach 100 Recreations; Nr. 2" }
   }
 }

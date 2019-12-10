@@ -31,6 +31,7 @@ firstmelody = {
 }
 
 secondmelody = {
+  % nach Op. 584, Nr. 1
   \repeat volta 2 {
     c2 e4 e | %1 
     g g e2  | %2
@@ -45,7 +46,7 @@ secondmelody = {
 
 thirdmelody = {
   % Op. 599; Nr. 14
-  \repeat volta 2
+  \repeat volta 2 {
     e4 e e e | %1
     g2 e     | %2
     f4 f f f | %3
@@ -68,6 +69,7 @@ thirdmelody = {
 } 
 
 fourthmelody = {
+  % nach Op. 824, Nr. 7
   \repeat volta 2 {
     c4 e g2  | %1
     c,4 e g2 | %2
@@ -91,6 +93,7 @@ fourthmelody = {
 }
 
 fifthmelody = {
+  % nach Op. 481, Nr. 2
   \repeat volta 2 {
     g4 e g e | %1
     c c c c  | %2

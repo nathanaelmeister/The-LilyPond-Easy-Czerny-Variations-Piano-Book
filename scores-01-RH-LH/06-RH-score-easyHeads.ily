@@ -4,7 +4,7 @@
   \relative c' {
     \clef treble
     \numericTimeSignature
-    \time 4/4
+    \time 3/4
     \key c \major
     \easyHeadsOn
 
@@ -12,6 +12,6 @@
   }
   \layout { }
   \header {
-    opus =  \markup \tiny { "nach Op. 139, Nr. 2" }
+    opus =  \markup \tiny { "nach Op. 824, Nr. 6" }
   }
 }

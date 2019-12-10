@@ -1,7 +1,7 @@
 \score {
   \new Staff \with {
     instrumentName = \markup { \number "4." }}
-  \relative c'' {
+  \relative c' {
     \clef treble
     \numericTimeSignature
     \time 4/4
@@ -12,6 +12,6 @@
   }
   \layout { }
   \header {
-    opus = \markup \tiny { "nach Op. 481, Nr. 2" }
+    opus =  \markup \tiny { "nach Op. 824, Nr. 7" }
   }
 }

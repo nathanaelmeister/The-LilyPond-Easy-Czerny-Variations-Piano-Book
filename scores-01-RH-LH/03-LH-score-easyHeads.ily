@@ -1,6 +1,6 @@
 \score {
   \new Staff \with {
-    instrumentName = \markup { \number "3." }}
+    instrumentName = \markup { \number "2." }}
   \relative c {
     \clef bass
     \numericTimeSignature
@@ -8,10 +8,10 @@
     \key c \major
     \easyHeadsOn
 
-    \thirdmelody
+    \secondmelody
   }
   \layout { }
   \header {
-    opus = \markup \tiny { "nach Op. 824, Nr. 7" }
+    opus = \markup \tiny { "nach Op. 599, Nr. 14" }
   }
 }

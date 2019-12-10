@@ -21,9 +21,16 @@
   \include "scores-01-RH-LH/07-RH-score-easyHeads.ily"
   \include "scores-01-RH-LH/08-RH-score-easyHeads.ily"
   \include "scores-01-RH-LH/09-RH-score-easyHeads.ily"
+  \include "scores-01-RH-LH/10-RH-score-easyHeads.ily"
+  \include "scores-01-RH-LH/11-RH-score-easyHeads.ily"
+  \include "scores-01-RH-LH/12-RH-score-easyHeads.ily"
   \noPageBreak
   \include "footnotes/small-melody.ily"
 }
+
+
+%{
+
 
 % Zweiter Teil, die Melodie Linke Hand ==================
 
@@ -40,6 +47,10 @@
   \include "scores-01-RH-LH/07-LH-score-easyHeads.ily"
   \include "scores-01-RH-LH/08-LH-score-easyHeads.ily"
   \include "scores-01-RH-LH/09-LH-score-easyHeads.ily"
+  \include "scores-01-RH-LH/10-LH-score-easyHeads.ily"
+  \include "scores-01-RH-LH/11-LH-score-easyHeads.ily"
+  \include "scores-01-RH-LH/12-LH-score-easyHeads.ily"
+
 }
 
 % Dritter Teil, die Melodie für Beide Hände
@@ -121,3 +132,4 @@
   \include "footnotes/arpeggio.ily"
   \include "footnotes/alberti-bass.ily"
 }
+%}
