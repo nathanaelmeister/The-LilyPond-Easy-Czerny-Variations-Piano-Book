@@ -1,33 +1,73 @@
-interlude = {
-  % 100 Recreations Nr. 1
-  c d e f g 
-}
-
 firstmelody = {
-  c2 e4 e | %1 
-  g g e2  | %2
-  d2 f4 f | %3
-  e2 e    | %4
-  g2 e4 e | %5
-  c4 c e2 | %6
-  f4 f d2 | %7
-  c1      | %8
-  \bar "|."
+  % 100 Recreations Nr. 1
+  \repeat volta 2 {
+    c4 c  | %01
+    g' g  | %02
+    f f   | %03
+    e2    | %04
+    d4 d  | %05
+    f f   | %06
+    e d   | %07
+    c2    | %08
+  }
+  \repeat volta 2 {  
+    d4 d  | %09
+    f f   | %10
+    e e   | %11
+    g2    | %12
+    d4 d  | %13
+    f f   | %14
+    e e   | %15
+    g2    | %16
+    c,4 c | %17
+    g' g  | %18
+    f f   | %19
+    e2    | %20
+    d4 d  | %21
+    f d   | %22
+    c e   | %23
+    c2    | %24 
+  }
 }
 
 secondmelody = {
-  e4 e e e | %1
-  g2 e     | %2
-  f4 f f f | %3
-  e1       | %4
-  e4 e e e | %5
-  g2 e     | %6
-  d4 d d d | %7
-  c1       | %8
-  \bar "|."
-} 
+  \repeat volta 2 {
+    c2 e4 e | %1 
+    g g e2  | %2
+    d2 f4 f | %3
+    e2 e    | %4
+    g2 e4 e | %5
+    c4 c e2 | %6
+    f4 f d2 | %7
+    c1      | %8
+  }
+}
 
 thirdmelody = {
+  % Op. 599; Nr. 14
+  \repeat volta 2
+    e4 e e e | %1
+    g2 e     | %2
+    f4 f f f | %3
+    e1       | %4
+    e4 e e e | %5
+    g2 e     | %6
+    d4 d d d | %7
+    c1       | %8
+  }
+  \repeat volta 2 {
+    f4 f f f | %09
+    e2 g     | %10
+    f4 f f f | %11
+    e2 c     | %12
+    e4 g g g | %13
+    g e g e  | %14
+    d d d d  | %15
+    c1       | %16
+  }
+} 
+
+fourthmelody = {
   \repeat volta 2 {
     c4 e g2  | %1
     c,4 e g2 | %2
@@ -50,19 +90,21 @@ thirdmelody = {
   }
 }
 
-fourthmelody = {
-  g4 e g e | %1
-  c c c c  | %2
-  d d d d  | %3
-  e c e c  | %4
-  g' e g e | %5
-  c c c c  | %6
-  d f e d  | %7
-  c e c2   | %8
-  \bar "|." 
+fifthmelody = {
+  \repeat volta 2 {
+    g4 e g e | %1
+    c c c c  | %2
+    d d d d  | %3
+    e c e c  | %4
+    g' e g e | %5
+    c c c c  | %6
+    d f e d  | %7
+    c e c2   | %8
+  }
 }
 
-fifthmelody = {
+sixthmelody = {
+  % nach Op. 824, Nr. 6
   c2 c4   | %1
   e2 e4   | %2
   d2 d4   | %3
@@ -82,7 +124,8 @@ fifthmelody = {
   \bar "|." 
 }
 
-sixthmelody = {
+seventhmelody = {
+  % nach Op. 139, Nr. 2
   e4 e g e | %1
   c c e c  | %2
   d d f d  | %3
@@ -94,7 +137,8 @@ sixthmelody = {
   \bar "|."
 }
 
-seventhmelody = {
+eighthmelody = {
+  % nach Op. 584, Nr. 2
   c4 d e f | %1
   g e g e  | %2
   d f d f  | %3
@@ -106,7 +150,8 @@ seventhmelody = {
   \bar "|." 
 }
 
-eighthmelody = {
+ninthmelody = {
+  % nach Op. 824, Nr. 12
   c2 c4  | %1
   e2 e4  | %2
   g2 g4  | %3
@@ -126,7 +171,8 @@ eighthmelody = {
   \bar "|." 
 }
 
-ninthmelody = {
+tenthmelody = {
+  % nach Op. 824, Nr. 10
   g4 g g  | %1
   g2 e4   | %2
   e e e   | %3
@@ -146,13 +192,58 @@ ninthmelody = {
   \bar "|." 
 }
 
-tenthmelody = {
-  % 100 Recreations Nr. 2
-  c d e f g
-}
-
 eleventhmelody = {
-  % Taktschule Nr. 14
-  c d e f g
+  % 100 Recreations Nr. 2
+  \repeat volta 2 {
+    c4 d e | %01
+    e e e  | %02
+    d e f  | %03
+    f f f  | %04
+    e f g  | %05
+    g g g  | %06
+    g f d  | %07
+    c2.    | %08
+  }
+  \repeat volta 2 {
+    d4 e f | %09
+    f e d  | %10
+    e g f  | %11
+    e d c  | %12
+    d e f  | %13
+    f e d  | %14
+    e g f  | %15
+    e d c  | %16
+    c d e  | %17
+    e e e  | %18
+    d e f  | %19
+    f f f  | %20
+    e f g  | %21
+    g g g  | %22
+    g f d  | %23
+    c2.    | %24
+  }
 }
 
+twelfthmelody = {
+  % Taktschule; Op. 824; Nr. 14
+  \repeat volta 2 {  
+    c4 c d d             | %01
+    e2 c4 c              | %02
+    d d e e              | %03
+    f2 d4 d              | %04
+    e e f f              | %05
+    g g f8( e d e)       | %06
+    f4 f g8( f e d)      | %07
+    c4 e c2              | %08
+  }
+  \repeat volta 2 {
+    d4 g d g             | %09
+    e8( f g e) c2        | %10
+    d4 g d g             | %11
+    e8( f g e) c2        | %12
+    c4 c d d             | %13
+    e e f f              | %14
+    e8( g f e) d( f e d) | %15
+    c4 c c r             | %16
+  }
+}
