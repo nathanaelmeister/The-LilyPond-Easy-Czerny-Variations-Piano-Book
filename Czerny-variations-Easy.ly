@@ -10,6 +10,7 @@
 %\include "global-files/paper.ily"
 
 % Erster Teil, die Melodie Rechte Hand ==================
+%{
 
 \bookpart {
 
@@ -105,8 +106,7 @@
   \include "scores-03-BH/12-score.ily"
 }
 
-
-%{
+%}
 
 % Vierter Teil - einfache Begleitung
 
@@ -123,10 +123,16 @@
   \include "scores-04-Simple/07-score.ily"
   \include "scores-04-Simple/08-score.ily"
   \include "scores-04-Simple/09-score.ily"
+  \include "scores-04-Simple/10-score.ily"
+  \include "scores-04-Simple/11-score.ily"
+  \include "scores-04-Simple/12-score.ily"
+
   \noPageBreak
   \include "footnotes/begleitung.ily"
 }
 
+
+%{
 % Fünfter Teil - ganze Akkorde
 
 \include "input-files/LH-3-Chords.ily"

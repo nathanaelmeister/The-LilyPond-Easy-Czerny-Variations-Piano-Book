@@ -5,9 +5,9 @@
     \new Staff = "right" \with {
       midiInstrument = "acoustic grand"
     }
-    \relative c' {
+    \relative c'' {
       \clef treble
-      \time 3/4
+      \time 4/4
       \key c \major
 
       \fifthmelody
@@ -17,7 +17,7 @@
     }
     \relative c {
       \clef bass
-      \time 3/4
+      \time 4/4
       \key c \major
 
       \fifthSimple
@@ -25,6 +25,6 @@
   >>
   \layout { }
   \header {
-    opus = \markup \smaller { "nach Op. 824, Nr. 6" }
+    opus = \markup \smaller { "nach Op. 481, Nr. 2" }
   }
 }

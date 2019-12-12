@@ -7,7 +7,7 @@
     }
     \relative c' {
       \clef treble
-      \time 4/4
+      \time 2/4
       \key c \major
 
       \firstmelody
@@ -17,7 +17,7 @@
     }
     \relative c {
       \clef bass
-      \time 4/4
+      \time 2/4
       \key c \major
 
       \firstSimple
@@ -25,6 +25,6 @@
   >>
   \layout { }
   \header {
-    opus = \markup \smaller { "nach Op. 584, Nr. 1" }
+    opus = \markup \smaller { "nach 100 Recreations; Nr. 1" }
   }
 }

@@ -1,6 +1,6 @@
 \score {
   \new PianoStaff \with {
-    instrumentName = \markup \number \huge { "3." }
+    instrumentName =\markup \huge { \number "3." }
   } <<
     \new Staff = "right" \with {
       midiInstrument = "acoustic grand"
@@ -25,6 +25,6 @@
   >>
   \layout { }
   \header {
-    opus = \markup \smaller { "nach Op. 824, Nr. 7" }
+    opus = \markup \smaller { "nach Op. 599, Nr. 14" }
   }
 }
