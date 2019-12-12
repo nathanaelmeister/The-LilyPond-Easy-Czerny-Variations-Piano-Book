@@ -1,6 +1,6 @@
 \score {
   \new Staff \with {
-    instrumentName = \markup { \number "7." }}
+    instrumentName = \markup { \number "8." }}
   <<
   \new Voice {
     \relative c {
@@ -10,7 +10,7 @@
       \key c \major
       \easyHeadsOn
 
-      \seventhmelody
+      \eighthmelody
       }
     }
     \new Voice {

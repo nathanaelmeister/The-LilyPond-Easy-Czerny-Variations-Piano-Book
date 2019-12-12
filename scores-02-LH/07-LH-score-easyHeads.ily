@@ -1,6 +1,6 @@
 \score {
   \new Staff \with {
-    instrumentName = \markup { \number "6." }}
+    instrumentName = \markup { \number "7." }}
   \relative c {
     \clef bass
     \numericTimeSignature
@@ -8,7 +8,7 @@
     \key c \major
     \easyHeadsOn
 
-    \sixthmelody
+    \seventhmelody
   }
   \layout { }
   \header {

@@ -8,14 +8,15 @@
 \include "input-files/melody-1.ily"
 
 %\include "global-files/paper.ily"
+%{
 
 % Erster Teil, die Melodie Rechte Hand ==================
 
 \bookpart {
 
   \include "header-files/01-easy-header.ily"
-  \include "diagramms/01-diagramm-RH.ily"
-  \include "ossias/01-ossia-RH.ily"
+  \include "diagramms/01a-diagramm-RH.ily"
+  \include "ossias/01a-ossia-RH.ily"
   \markup { \vspace #2 }
 
   \include "scores-01-RH/01-RH-score-easyHeads.ily"
@@ -35,32 +36,36 @@
       \fill-line \fontsize #1 \bold { "Eine Oktave höher" }
       \fill-line \fontsize #0.4 \bold \italic { "One octave higher" }}}
 
-  \include "diagramms/02-diagramm-RH.ily"
-  \include "ossias/02-ossia-RH.ily"
+  \include "diagramms/01b-diagramm-RH.ily"
+  \include "ossias/01b-ossia-RH.ily"
   \markup { \vspace #2 }
 
   \include "scores-01-RH/11-RH-score-easyHeads.ily"
   \include "scores-01-RH/12-RH-score-easyHeads.ily"
   \include "footnotes/small-melody.ily"
-
 }
-
-%{
 
 % Zweiter Teil, die Melodie Linke Hand ==================
 
 \bookpart {
 
   \include "header-files/02-easy-header.ily"
+  \include "diagramms/02-diagramm-LH.ily"
+  \include "ossias/02-ossia-LH.ily"
+  \markup { \vspace #2 }
+
+
   \include "scores-02-LH/01-LH-score-easyHeads.ily"
   \include "scores-02-LH/02-LH-score-easyHeads.ily"
   \include "scores-02-LH/03-LH-score-easyHeads.ily"
   \include "scores-02-LH/04-LH-score-easyHeads.ily"
+  \pageBreak
   \include "scores-02-LH/05-LH-score-easyHeads.ily"
   \include "scores-02-LH/06-LH-score-easyHeads.ily"
   \include "scores-02-LH/07-LH-score-easyHeads.ily"
   \include "scores-02-LH/08-LH-score-easyHeads.ily"
   \include "scores-02-LH/09-LH-score-easyHeads.ily"
+  \pageBreak
   \include "scores-02-LH/10-LH-score-easyHeads.ily"
   \include "scores-02-LH/11-LH-score-easyHeads.ily"
   \include "scores-02-LH/12-LH-score-easyHeads.ily"
@@ -68,7 +73,7 @@
 }
 
 % Dritter Teil, die Melodie für Beide Hände
-
+%}
 
 \bookpart {
 
@@ -83,6 +88,9 @@
   \include "scores-03-BH/08-score.ily"
   \include "scores-03-BH/09-score.ily"
 }
+
+
+%{
 
 % Vierter Teil - einfache Begleitung
 

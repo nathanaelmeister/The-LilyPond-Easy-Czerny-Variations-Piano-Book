@@ -7,15 +7,15 @@
           fontSize = #-3
           \override StaffSymbol.staff-space = #(magstep -3)
           \override StaffSymbol.thickness = #(magstep -3) }
-        \relative c' {
-          \clef treble
+        \relative c {
+          \clef bass
           \context Staff = "ossia" {
             \startStaff
-            c1-1 \bar ";"
-            d-2 \bar ";"
-            e-3 \bar ";"
-            f-4 \bar ";"
-            g-5 \bar "||" \stopStaff
+            c1-5_\markup { "c"} \bar ";"
+            d-4_\markup { "d"} \bar ";"
+            e-3_\markup { "e"} \bar ";"
+            f-2_\markup { "f"} \bar ";"
+            g-1_\markup { "g"} \bar "||" \stopStaff
           }
         }
       \layout { }
