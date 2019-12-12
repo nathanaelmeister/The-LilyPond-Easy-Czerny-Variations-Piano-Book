@@ -8,6 +8,9 @@
 
 %\include "global-files/paper.ily"
 
+%{
+
+
 \bookpart {
 
   \include "header-files/01-easy-header.ily"
@@ -28,9 +31,7 @@
   \include "footnotes/small-melody.ily"
 }
 
-
-%{
-
+%}
 
 % Zweiter Teil, die Melodie Linke Hand ==================
 
@@ -54,6 +55,8 @@
 }
 
 % Dritter Teil, die Melodie für Beide Hände
+
+%{
 
 \bookpart {
 
