@@ -3,6 +3,7 @@
 #(set-default-paper-size "a4")
 #(set-global-staff-size 24)
 
+\include "global-files/diagramm_script_big.ily"
 \include "global-files/easyHeads.ily"
 \include "input-files/melody-1.ily"
 
@@ -13,21 +14,35 @@
 \bookpart {
 
   \include "header-files/01-easy-header.ily"
+  \include "diagramms/01-diagramm-RH.ily"
   \include "ossias/01-ossia-RH.ily"
+  \markup { \vspace #2 }
+
   \include "scores-01-RH/01-RH-score-easyHeads.ily"
   \include "scores-01-RH/02-RH-score-easyHeads.ily"
   \include "scores-01-RH/03-RH-score-easyHeads.ily"
   \include "scores-01-RH/04-RH-score-easyHeads.ily"
+  \pageBreak
   \include "scores-01-RH/05-RH-score-easyHeads.ily"
   \include "scores-01-RH/06-RH-score-easyHeads.ily"
   \include "scores-01-RH/07-RH-score-easyHeads.ily"
   \include "scores-01-RH/08-RH-score-easyHeads.ily"
   \include "scores-01-RH/09-RH-score-easyHeads.ily"
   \include "scores-01-RH/10-RH-score-easyHeads.ily"
+  \pageBreak
+  \markup  {
+    \column {
+      \fill-line \fontsize #1 \bold { "Eine Oktave höher" }
+      \fill-line \fontsize #0.4 \bold \italic { "One octave higher" }}}
+
+  \include "diagramms/02-diagramm-RH.ily"
+  \include "ossias/02-ossia-RH.ily"
+  \markup { \vspace #2 }
+
   \include "scores-01-RH/11-RH-score-easyHeads.ily"
   \include "scores-01-RH/12-RH-score-easyHeads.ily"
-  \noPageBreak
   \include "footnotes/small-melody.ily"
+
 }
 
 %{
