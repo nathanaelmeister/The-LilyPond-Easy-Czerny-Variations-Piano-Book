@@ -2,12 +2,6 @@
 
 \markup {
   \fill-line {
-    \line { "text" }
-  }
-}
-
-\markup {
-  \fill-line {
     \column {
       \score {
         \new PianoStaff \with {
@@ -21,10 +15,16 @@
             \override StaffSymbol.staff-space = #(magstep -3)
             \override StaffSymbol.thickness = #(magstep -3)
           }
-          \relative c'' {
+          \relative c' {
             \clef treble
             \context Staff = "ossiaright" {
-              \startStaff e4 g8 f e2 \stopStaff
+              \startStaff
+              c1-1_\markup { "c'"} \bar ";"
+              d-2_\markup { "d'"} \bar ";"
+              e-3_\markup { "e'"} \bar ";"
+              f-4_\markup { "f'"} \bar ";"
+              g-5_\markup { "g'"} \bar "||"
+              \stopStaff
             }
           }
           \new Staff = "ossialeft" \with {
@@ -35,7 +35,13 @@
           \relative c {
             \clef bass
             \context Staff = "ossialeft" {
-              \startStaff e4 g8 f e2 \stopStaff
+              \startStaff
+              c1-5_\markup { "c"} \bar ";"
+              d-4_\markup { "d"} \bar ";"
+              e-3_\markup { "e"} \bar ";"
+              f-2_\markup { "f"} \bar ";"
+              g-1_\markup { "g"} \bar "||"
+              \stopStaff
             }
           }
         >>

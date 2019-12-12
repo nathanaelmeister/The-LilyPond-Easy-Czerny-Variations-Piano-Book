@@ -8,7 +8,6 @@
 \include "input-files/melody-1.ily"
 
 %\include "global-files/paper.ily"
-%{
 
 % Erster Teil, die Melodie Rechte Hand ==================
 
@@ -33,8 +32,8 @@
   \pageBreak
   \markup  {
     \column {
-      \fill-line \fontsize #1 \bold { "Eine Oktave höher" }
-      \fill-line \fontsize #0.4 \bold \italic { "One octave higher" }}}
+      \fill-line \fontsize #0.5 \bold { "Eine Oktave höher" }
+      \fill-line \fontsize #0.25 \bold \italic { "One octave higher" }}}
 
   \include "diagramms/01b-diagramm-RH.ily"
   \include "ossias/01b-ossia-RH.ily"
@@ -54,7 +53,6 @@
   \include "ossias/02-ossia-LH.ily"
   \markup { \vspace #2 }
 
-
   \include "scores-02-LH/01-LH-score-easyHeads.ily"
   \include "scores-02-LH/02-LH-score-easyHeads.ily"
   \include "scores-02-LH/03-LH-score-easyHeads.ily"
@@ -73,11 +71,14 @@
 }
 
 % Dritter Teil, die Melodie für Beide Hände
-%}
 
 \bookpart {
 
   \include "header-files/03-easy-header.ily"
+  \include "diagramms/03a-diagramm-BH.ily"
+  \include "ossias/03a-ossia-BH.ily"
+  \markup { \vspace #1 }
+
   \include "scores-03-BH/01-score.ily"
   \include "scores-03-BH/02-score.ily"
   \include "scores-03-BH/03-score.ily"
@@ -87,6 +88,21 @@
   \include "scores-03-BH/07-score.ily"
   \include "scores-03-BH/08-score.ily"
   \include "scores-03-BH/09-score.ily"
+  \include "scores-03-BH/10-score.ily"
+  \pageBreak
+  \markup  {
+    \column {
+      \fill-line \fontsize #0.5 \bold {
+        "Die rechte Hand spielt eine Oktave höher" }
+      \fill-line \fontsize #0.25 \bold \italic {
+        "The right hand plays one octave higher" }}}
+
+  \include "diagramms/03b-diagramm-BH.ily"
+  \include "ossias/03b-ossia-BH.ily"
+  \markup { \vspace #2 }
+
+  \include "scores-03-BH/11-score.ily"
+  \include "scores-03-BH/12-score.ily"
 }
 
 

@@ -7,26 +7,24 @@
     }
     \relative c'' {
       \clef treble
-      %\numericTimeSignature
-      \time 3/4
+      \time 4/4
       \key c \major
-      \easyHeadsOn
+
       \fifthmelody
     }
     \new Staff = "left" \with {
       midiInstrument = "acoustic grand"
     }
-    \relative c {
+    \relative c' {
       \clef bass
-      %\numericTimeSignature
-      \time 3/4
+      \time 4/4
       \key c \major
-      \easyHeadsOn
+
       \fifthmelody
     }
   >>
   \layout { }
   \header {
-    opus = \markup \smaller { "nach Op. 824, Nr. 6" }
+    opus = \markup \smaller { "nach Op. 481, Nr. 2" }
   }
 }
