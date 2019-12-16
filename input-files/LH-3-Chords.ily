@@ -1,4 +1,8 @@
 firstChords = {
+  s2*24
+}
+
+secondChords = {
   \repeat volta 2 {
     <c e g>1 | %1 
     <c e g>  | %2
@@ -11,7 +15,7 @@ firstChords = {
   }
 }
 
-secondChords = {
+thirdChords = {
   <c e g>1 | %1 
   <c e g>  | %2
   <b d g>  | %3
@@ -30,9 +34,9 @@ secondChords = {
   <b d g>2. <b d g>4 | %7
   <c e g>1           | %8
   \bar "|."
-} 
+}
 
-thirdChords = {
+fourthChords = {
   <c e g>1 | %1
   <c e g>  | %2
   <b d g>  | %3
@@ -53,7 +57,7 @@ thirdChords = {
   \bar "|."
 }
 
-fourthChords = {
+fifthChords = {
   \repeat volta 2 {
     <c e g>1 | %1 
     <c e g>  | %2
@@ -66,7 +70,7 @@ fourthChords = {
   }
 }
 
-fifthChords = {
+sixthChords = {
   <c e g>2.          | %1
   <c e g>            | %2
   <b d g>            | %3
@@ -83,10 +87,10 @@ fifthChords = {
   <b d g>            | %14
   <c e g>            | %15
   <c e g>            | %16
-  \bar "|." 
+  \bar "|."
 }
 
-sixthChords = {
+seventhChords = {
   \repeat volta 2 {
     <c e g>1 | %1 
     <c e g>  | %2
@@ -99,7 +103,7 @@ sixthChords = {
   }
 }
 
-seventhChords = {
+eighthChords = {
   \repeat volta 2 {
     <c e g>1 | %1
     <c e g>  | %2
@@ -112,7 +116,7 @@ seventhChords = {
   }
 }
 
-eighthChords = {
+ninthChords = {
   <c e g>2.              | %1
   r4 <c e g>-. <c e g>-. | %2
   r4 <c e g>-. <c e g>-. | %3
@@ -129,10 +133,10 @@ eighthChords = {
   <b d g>                | %14
   <c e g>2 <c e g>4      | %15
   <c e g>2.              | %16
-  \bar "|." 
+  \bar "|."
 }
 
-ninthChords = {
+tenthChords = {
   <c e g>2.              | %1
   c4( e g)               | %2
   <c, e g>2.             | %3
@@ -142,7 +146,7 @@ ninthChords = {
   <<
     {r4 <e g>-. <e g>-.}
     \\
-    {c2. } 
+    {c2. }
   >>                     | %7
   <<
     {r4 <e g>-. <e g>-.}
@@ -161,6 +165,13 @@ ninthChords = {
     {c2. }
   >>                     | %15
   <c e g>2.              | %16
-  \bar "|." 
+  \bar "|."
 }
 
+eleventhChords = {
+ s2.*24
+}
+
+twelfthChords = {
+ s1*16
+}

@@ -1,8 +1,9 @@
 \header {
   title = \markup {
-    \hbracket { \smallCaps "Dritter Teil" }
+    \hbracket { \smallCaps "Sechster Teil" }
   }
-  subtitle = \markup { \vspace #2 "- Begleitung mit ganzen Akkorden* -" }
+  subtitle = \markup {
+    \vspace #2 "- Arpeggios* mit der linken Hand -" }
   instrument = \markup { \null }
   composer = ""
   tagline = ##f

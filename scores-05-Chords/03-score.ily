@@ -1,32 +1,30 @@
 \score {
   \new PianoStaff \with {
-    instrumentName = \markup \number \huge { "3." }
+    instrumentName =\markup \huge { \number "3." }
   } <<
     \new Staff = "right" \with {
       midiInstrument = "acoustic grand"
     }
-    \relative c'' {
+    \relative c' {
       \clef treble
-      %\numericTimeSignature
       \time 4/4
       \key c \major
-      %\easyHeadsOn
-      \thirdMelChords
+
+      \thirdmelody
     }
     \new Staff = "left" \with {
       midiInstrument = "acoustic grand"
     }
     \relative c {
       \clef bass
-      %\numericTimeSignature
       \time 4/4
       \key c \major
-      %\easyHeadsOn
+
       \thirdChords
     }
   >>
   \layout { }
   \header {
-    opus = \markup \smaller { "nach Op. 824, Nr. 7" }
+    opus = \markup \smaller { "nach Op. 599, Nr. 14" }
   }
 }

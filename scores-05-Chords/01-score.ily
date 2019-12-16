@@ -5,28 +5,26 @@
     \new Staff = "right" \with {
       midiInstrument = "acoustic grand"
     }
-    \relative c'' {
+    \relative c' {
       \clef treble
-      %\numericTimeSignature
-      \time 4/4
+      \time 2/4
       \key c \major
-      %\easyHeadsOn
-      \firstMelChords
+
+      \firstmelody
     }
     \new Staff = "left" \with {
       midiInstrument = "acoustic grand"
     }
     \relative c {
       \clef bass
-      %\numericTimeSignature
-      \time 4/4
+      \time 2/4
       \key c \major
-      %\easyHeadsOn
+
       \firstChords
     }
   >>
   \layout { }
   \header {
-    opus = \markup \smaller { "nach Op. 584, Nr. 1" }
+    opus = \markup \smaller { "nach 100 Recreations; Nr. 1" }
   }
 }
