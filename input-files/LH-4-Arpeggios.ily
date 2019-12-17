@@ -158,7 +158,7 @@ tenthArpeggio = {
 }
 
 eleventhArpeggio = {
-  s2*24
+  s2.*24
 }
 
 twelfthArpeggio = {

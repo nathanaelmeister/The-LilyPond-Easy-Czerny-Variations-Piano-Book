@@ -10,7 +10,7 @@
       \time 4/4
       \key c \major
 
-      \fourthmelody
+      \fourthMelChords
     }
     \new Staff = "left" \with {
       midiInstrument = "acoustic grand"

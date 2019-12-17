@@ -10,7 +10,7 @@
       \time 3/4
       \key c \major
 
-      \ninthmelody
+      \ninthMelChords
     }
     \new Staff = "left" \with {
       midiInstrument = "acoustic grand"

@@ -10,7 +10,6 @@
 %\include "global-files/paper.ily"
 
 % Erster Teil, die Melodie Rechte Hand ==================
-%{
 
 \bookpart {
 
@@ -136,6 +135,8 @@
 
 \bookpart {
   \include "header-files/05-header.ily"
+  %\include "diagramms/05-diagramm-Chords.ily"
+  %\include "ossias/03-ossia-Chords.ily"
   \include "scores-05-Chords/01-score.ily"
   \include "scores-05-Chords/02-score.ily"
   \include "scores-05-Chords/03-score.ily"
@@ -153,8 +154,6 @@
 }
 
 % Sechster Teil - Arpeggien
-
-%}
 
 \include "input-files/LH-4-Arpeggios.ily"
 \include "input-files/melody-4-Arpeggios.ily"
@@ -178,4 +177,4 @@
   \include "footnotes/arpeggio.ily"
   \include "footnotes/alberti-bass.ily"
 }
-%%}
+

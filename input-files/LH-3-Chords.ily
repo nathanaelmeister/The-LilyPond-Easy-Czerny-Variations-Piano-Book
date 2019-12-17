@@ -52,7 +52,7 @@ fourthChords = {
   <c e g>           | %12
   <c e g>           | %13
   <c e g>           | %14
-  <c e g>2 <b f g > | %15
+  <c e g>2 <b d g > | %15
   <c e g>1          | %16
   \bar "|."
 }
