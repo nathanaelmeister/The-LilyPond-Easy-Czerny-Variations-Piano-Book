@@ -1,4 +1,8 @@
 firstArpeggio = {
+ s2*24
+}
+
+secondArpeggio = {
   \repeat volta 2 {
     c4 g' e g | %1 
     c, g' e g | %2
@@ -12,7 +16,7 @@ firstArpeggio = {
   \bar "|."
 }
 
-secondArpeggio = {
+thirdArpeggio = {
   c4 g' e g | %1 
   c, g' e g | %2
   b, g' d g | %3
@@ -30,9 +34,9 @@ secondArpeggio = {
   b, g' d g | %15
   c, e c2   | %16
   \bar "|."
-} 
+}
 
-thirdArpeggio = {
+fourthArpeggio = {
   \repeat volta 2 {
     c4 g' e g | %1
     c, g' e g | %2
@@ -55,7 +59,7 @@ thirdArpeggio = {
   }
 }
 
-fourthArpeggio = {
+fifthArpeggio = {
   \repeat volta 2 {
     c4 g' e g | %1 
     c, g' e g | %2
@@ -69,7 +73,7 @@ fourthArpeggio = {
   \bar "|."
 }
 
-fifthArpeggio = {
+sixthArpeggio = {
   c4( e g) | %1
   c,( e g) | %2
   b,( d g) | %3
@@ -89,7 +93,7 @@ fifthArpeggio = {
   \bar "|."
 }
 
-sixthArpeggio = {
+seventhArpeggio = {
   c4 g' e g | %1 
   c, g' e g | %2
   b, g' d g | %3
@@ -101,7 +105,7 @@ sixthArpeggio = {
   \bar "|."
 }
 
-seventhArpeggio = {
+eighthArpeggio = {
   c4 g' e g | %1
   b, g' e g | %2
   b, g' e g | %3
@@ -111,26 +115,6 @@ seventhArpeggio = {
   b, g' e g | %7
   b, g' e c | %8
   \bar "|."
-}
-
-eighthArpeggio = {
-  c4 e g | %1
-  c, e g | %2
-  c, e g | %3
-  c, e g | %4
-  b, d g | %5
-  b, d g | %6
-  c, e g | %7
-  c, e g | %8
-  c, e g | %9
-  c, e g | %10
-  c, e g | %11
-  c, e g | %12
-  b, d g | %13
-  b, d g | %14
-  c, e g | %15
-  c, e g | %16
-  \bar "|." 
 }
 
 ninthArpeggio = {
@@ -150,5 +134,33 @@ ninthArpeggio = {
   b, d g | %14
   c, e g | %15
   c, e g | %16
-  \bar "|." 
+  \bar "|."
+}
+
+tenthArpeggio = {
+  c4 e g | %1
+  c, e g | %2
+  c, e g | %3
+  c, e g | %4
+  b, d g | %5
+  b, d g | %6
+  c, e g | %7
+  c, e g | %8
+  c, e g | %9
+  c, e g | %10
+  c, e g | %11
+  c, e g | %12
+  b, d g | %13
+  b, d g | %14
+  c, e g | %15
+  c, e g | %16
+  \bar "|."
+}
+
+eleventhArpeggio = {
+  s2*24
+}
+
+twelfthArpeggio = {
+  s1*16
 }

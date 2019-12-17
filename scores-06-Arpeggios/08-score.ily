@@ -1,13 +1,13 @@
 \score {
   \new PianoStaff \with {
-    instrumentName = \markup \huge { \number "8." }
+    instrumentName = \markup \number \huge { "8." }
   } <<
     \new Staff = "right" \with {
       midiInstrument = "acoustic grand"
     }
-    \relative c'' {
+    \relative c' {
       \clef treble
-      \time 3/4
+      \time 4/4
       \key c \major
 
       \eighthMelArp
@@ -17,7 +17,7 @@
     }
     \relative c {
       \clef bass
-      \time 3/4
+      \time 4/4
       \key c \major
 
       \eighthArpeggio
@@ -25,6 +25,6 @@
   >>
   \layout { }
   \header {
-    opus = \markup \smaller { "nach Op. 824, Nr. 12" }
+    opus = \markup \smaller { "nach Op. 584, Nr. 2" }
   }
 }

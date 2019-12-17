@@ -10,7 +10,7 @@
 %\include "global-files/paper.ily"
 
 % Erster Teil, die Melodie Rechte Hand ==================
-%%{
+%{
 
 \bookpart {
 
@@ -129,7 +129,6 @@
   \include "footnotes/begleitung.ily"
 }
 
-%%}
 % Fünfter Teil - ganze Akkorde
 
 \include "input-files/LH-3-Chords.ily"
@@ -155,7 +154,7 @@
 
 % Sechster Teil - Arpeggien
 
-%%{
+%}
 
 \include "input-files/LH-4-Arpeggios.ily"
 \include "input-files/melody-4-Arpeggios.ily"
@@ -172,6 +171,9 @@
   \include "scores-06-Arpeggios/07-score.ily"
   \include "scores-06-Arpeggios/08-score.ily"
   \include "scores-06-Arpeggios/09-score.ily"
+  \include "scores-06-Arpeggios/10-score.ily"
+  \include "scores-06-Arpeggios/11-score.ily"
+  \include "scores-06-Arpeggios/12-score.ily"
   \noPageBreak
   \include "footnotes/arpeggio.ily"
   \include "footnotes/alberti-bass.ily"
