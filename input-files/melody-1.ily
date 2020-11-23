@@ -10,7 +10,7 @@ firstmelody = {
     e d   | %07
     c2    | %08
   }
-  \repeat volta 2 {  
+  \repeat volta 2 {
     d4 d  | %09
     f f   | %10
     e e   | %11

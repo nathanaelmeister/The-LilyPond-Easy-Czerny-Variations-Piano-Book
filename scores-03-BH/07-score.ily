@@ -10,7 +10,7 @@
       \time 4/4
       \key c \major
 
-      \seventhmelody
+      \seventhmelodyA
     }
     \new Staff = "left" \with {
       midiInstrument = "acoustic grand"
@@ -20,7 +20,7 @@
       \time 4/4
       \key c \major
 
-      \seventhmelody
+      \seventhmelodyA
     }
   >>
   \layout { }

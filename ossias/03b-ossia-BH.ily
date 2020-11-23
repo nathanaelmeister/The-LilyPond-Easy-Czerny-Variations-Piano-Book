@@ -17,11 +17,11 @@
             \clef treble
             \context Staff = "ossiaright" {
               \startStaff
-              c1-1_\markup { "c'"} \bar ";"
-              d-2_\markup { "d'"} \bar ";"
-              e-3_\markup { "e'"} \bar ";"
-              f-4_\markup { "f'"} \bar ";"
-              g-5_\markup { "g'"} \bar "||"
+              c1-1_\markup { "c''"} \bar ";"
+              d-2_\markup { "d''"} \bar ";"
+              e-3_\markup { "e''"} \bar ";"
+              f-4_\markup { "f''"} \bar ";"
+              g-5_\markup { "g''"} \bar "||"
               \stopStaff
             }
           }

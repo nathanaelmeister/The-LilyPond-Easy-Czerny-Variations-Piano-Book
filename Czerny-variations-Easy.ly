@@ -6,6 +6,7 @@
 \include "global-files/diagramm_script_big.ily"
 \include "global-files/easyHeads.ily"
 \include "input-files/melody-1.ily"
+\include "input-files/melody-2.ily"
 
 %\include "global-files/paper.ily"
 

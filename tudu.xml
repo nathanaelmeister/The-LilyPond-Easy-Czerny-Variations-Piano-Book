@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE tudu SYSTEM "/usr/share/tudu/tudu.dtd">
+<todo>
+	<todo done="no" collapse="no">
+		<title>Welcome to "tudu"</title>
+		<text>"tudu" is a tool to manage "to do" lists.
+</text>
+		<todo done="yes" collapse="no">
+			<title>Teil 1</title>
+			<text>
+</text>
+		</todo>
+		<todo done="yes" collapse="no">
+			<title>Teil 2</title>
+			<text>
+</text>
+		</todo>
+		<todo done="no" collapse="no">
+			<title>Teil 3</title>
+			<text>
+</text>
+			<todo done="yes" collapse="no">
+				<title>Add \easyHeads to every second note</title>
+				<text>Input file with variable \firstmelody needs to be separated
+maybe use \firstmelodyA with \easyHeads and \firstmelodyB without \easyHeads
+</text>
+			</todo>
+		</todo>
+	</todo>
+</todo>
