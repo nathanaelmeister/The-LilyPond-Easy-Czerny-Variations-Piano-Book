@@ -3,7 +3,7 @@
     \line { \vspace #6 }
     \fill-line \fontsize #14 { "Kindervariationen" }
     \line { \vspace #2 }
-    \fill-line \fontsize #8 { "über 9 kleine Übungen" }
+    \fill-line \fontsize #8 { "über 12 kleine Übungen" }
     \line { \vspace #10 }
     \fill-line { \postscript #"-20 0 moveto 40 0 rlineto stroke" }
     \line { \vspace #6 }
@@ -17,4 +17,3 @@
 }
 
 \pageBreak
-

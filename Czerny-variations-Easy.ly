@@ -3,6 +3,7 @@
 #(set-default-paper-size "a4")
 #(set-global-staff-size 24)
 
+\include "global-files/book-title-page.ily"
 \include "global-files/diagramm_script_big.ily"
 \include "global-files/easyHeads.ily"
 \include "input-files/melody-1.ily"
@@ -136,8 +137,9 @@
 
 \bookpart {
   \include "header-files/05-header.ily"
-  %\include "diagramms/05-diagramm-Chords.ily"
-  %\include "ossias/03-ossia-Chords.ily"
+  \include "header-files/05-header-chords-markup.ily"
+  \markup { \vspace #2 }
+
   \include "scores-05-Chords/01-score.ily"
   \include "scores-05-Chords/02-score.ily"
   \include "scores-05-Chords/03-score.ily"
