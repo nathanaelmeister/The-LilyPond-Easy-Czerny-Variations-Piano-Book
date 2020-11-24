@@ -9,7 +9,7 @@
 \include "input-files/melody-1.ily"
 \include "input-files/melody-2.ily"
 
-%\include "global-files/paper.ily"
+\include "global-files/paper.ily"
 
 % Erster Teil, die Melodie Rechte Hand ==================
 

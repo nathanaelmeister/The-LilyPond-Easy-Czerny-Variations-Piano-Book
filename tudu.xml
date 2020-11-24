@@ -2,9 +2,14 @@
 <!DOCTYPE tudu SYSTEM "/usr/share/tudu/tudu.dtd">
 <todo>
 	<todo done="no" collapse="no">
-		<title>Welcome to "tudu"</title>
-		<text>"tudu" is a tool to manage "to do" lists.
+		<title>Scoring</title>
+		<text>
 </text>
+		<todo done="no" collapse="no">
+			<title>Create printable scores</title>
+			<text>
+</text>
+		</todo>
 		<todo done="yes" collapse="no">
 			<title>Teil 1</title>
 			<text>
@@ -23,6 +28,111 @@
 				<title>Add \easyHeads to every second note</title>
 				<text>Input file with variable \firstmelody needs to be separated
 maybe use \firstmelodyA with \easyHeads and \firstmelodyB without \easyHeads
+</text>
+			</todo>
+		</todo>
+		<todo done="no" collapse="no">
+			<title>Teil 4</title>
+			<text>
+</text>
+		</todo>
+		<todo done="no" collapse="no">
+			<title>Teil 5</title>
+			<text>
+</text>
+			<todo done="no" collapse="no">
+				<title>Nr.1 need accompaniment</title>
+				<text>
+</text>
+			</todo>
+			<todo done="no" collapse="no">
+				<title>Nr.11 need accompaniment</title>
+				<text>
+</text>
+			</todo>
+			<todo done="no" collapse="no">
+				<title>Nr.12 need accompaniment</title>
+				<text>
+</text>
+			</todo>
+		</todo>
+		<todo done="no" collapse="no">
+			<title>Teil 6</title>
+			<text>
+</text>
+			<todo done="no" collapse="no">
+				<title>Nr.1 need accompaniment</title>
+				<text>
+</text>
+			</todo>
+			<todo done="no" collapse="no">
+				<title>Nr.11 need accompaniment</title>
+				<text>
+</text>
+			</todo>
+			<todo done="no" collapse="no">
+				<title>Nr.12 need accompaniment</title>
+				<text>
+</text>
+			</todo>
+		</todo>
+	</todo>
+	<todo done="no" collapse="no">
+		<title>Translation</title>
+		<text>
+</text>
+		<todo done="no" collapse="no">
+			<title>Parts</title>
+			<text>
+</text>
+		</todo>
+		<todo done="no" collapse="no">
+			<title>Parts description</title>
+			<text>
+</text>
+		</todo>
+		<todo done="no" collapse="no">
+			<title>Opus</title>
+			<text>
+</text>
+		</todo>
+		<todo done="no" collapse="no">
+			<title>Footnotes</title>
+			<text>
+</text>
+		</todo>
+	</todo>
+	<todo done="no" collapse="no">
+		<title>Layout</title>
+		<text>
+</text>
+		<todo done="no" collapse="no">
+			<title>Distances between Scores</title>
+			<text>
+</text>
+		</todo>
+		<todo done="no" collapse="no">
+			<title>Manual Breaking</title>
+			<text>
+</text>
+		</todo>
+		<todo done="no" collapse="no">
+			<title>3 different outputs</title>
+			<text>
+</text>
+			<todo done="no" collapse="no">
+				<title>1.) no fingering</title>
+				<text>
+</text>
+			</todo>
+			<todo done="no" collapse="no">
+				<title>2.) only first fingering</title>
+				<text>
+</text>
+			</todo>
+			<todo done="no" collapse="no">
+				<title>3.) many fingerings</title>
+				<text>
 </text>
 			</todo>
 		</todo>
