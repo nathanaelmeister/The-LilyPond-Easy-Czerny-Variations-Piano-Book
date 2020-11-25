@@ -2,8 +2,8 @@
   %\vspace #10
   \column {
     \draw-hline
-    \line \bold \smallCaps { "* Begleitung" }
-    \wordwrap \italic {
+    \line \bold \smallCaps \tiny { "* Begleitung" }
+    \wordwrap \italic \tiny {
       Die Begleitung ist das musikalische Material,
       das zusätzlich zu einer Melodie gespielt wird,
       um sie harmonisch und rhythmisch zu untermalen.

@@ -2,8 +2,8 @@
   %\vspace #10
   \column {
     \draw-hline
-    \line \bold \smallCaps { "* Akkord" }
-    \wordwrap \italic {
+    \line \bold \smallCaps \tiny { "* Akkord" }
+    \wordwrap \italic \tiny {
       Ein Akkord ist in der Musik das gleichzeitige Erklingen 
       unterschiedlicher Töne, die sich harmonisch deuten lassen.
       Zwei übereinanderliegende unterschiedliche Terzen 

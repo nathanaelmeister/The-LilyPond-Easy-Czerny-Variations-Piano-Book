@@ -90,14 +90,14 @@ fourthSimple = {
     e c  | %8
   }
   \repeat volta 2 {
-    g'1   | %9
-    c,    | %10
-    g'    | %11
-    e     | %12
-    c     | %13
-    e     | %14
-    g'2 d | %15
-    e c   | %16
+    g'1  | %9
+    c,   | %10
+    g'   | %11
+    e    | %12
+    c    | %13
+    e    | %14
+    g2 d | %15
+    e c  | %16
   }
 }
 
@@ -133,19 +133,19 @@ sixthSimple = {
   c     | %13
   d     | %14
   e2 g4 | %15
-  c1    | %16
+  c2.   | %16
   \bar "|."
 }
 
 seventhSimple = {
-  c1   | %1 
-  e    | %2
-  g    | %3
-  e    | %4
-  c    | %5
-  e    | %6
-  d2 g | %7
-  c,1  | %8
+  c1    | %1 
+  e     | %2
+  g     | %3
+  e     | %4
+  c     | %5
+  e     | %6
+  d2 g  | %7
+  c,1   | %8
   \bar "|."
 }
 
@@ -246,7 +246,7 @@ twelfthSimple = {
   \repeat volta 2 {
     g'1     | %9
     c,      | %10
-    g2 d    | %11
+    g'2 d   | %11
     e c     | %12
     c2 g'   | %13
     c, d    | %14

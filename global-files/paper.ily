@@ -8,13 +8,18 @@ pagenumcol = \markup {
 copyrightcol = \include "global-files/copyright.ily"
 
 \paper {
-  print-page-number = ##t
-  print-first-page-number = ##t
+  %page-breaking = #ly:page-turn-breaking
   oddHeaderMarkup = \markup \null
   evenHeaderMarkup = \markup \null
-  oddFooterMarkup = \markup { \copyrightcol \pagenumcol }
-  evenFooterMarkup = \markup { \pagenumcol \copyrightcol }
-  %indent = #8
+  oddFooterMarkup = \markup { \copyrightcol
+    \on-the-fly #print-page-number-check-first
+    \pagenumcol
+  }
+  evenFooterMarkup = \markup {
+    \on-the-fly #print-page-number-check-first
+    \pagenumcol
+    \copyrightcol
+  }
   system-system-spacing =
   #'((basic-distance . 17)
      (minimum-distance . 12)
@@ -24,3 +29,6 @@ copyrightcol = \include "global-files/copyright.ily"
   %ragged-last = ##f
   %ragged-last-bottom = ##f
 }
+
+% credit for the `\on-the-fly #print-page-number-check-first`:
+% https://music.stackexchange.com/a/92463/42816
