@@ -35,6 +35,11 @@ maybe use \firstmelodyA with \easyHeads and \firstmelodyB without \easyHeads
 			<title>Teil 4</title>
 			<text>
 </text>
+			<todo done="yes" collapse="no">
+				<title>Add \easyHeads to every first bass note</title>
+				<text>
+</text>
+			</todo>
 		</todo>
 		<todo done="no" collapse="no">
 			<title>Teil 5</title>
