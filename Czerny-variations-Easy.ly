@@ -24,14 +24,14 @@
   \include "scores-01-RH/02-RH-score-easyHeads.ily"
   \include "scores-01-RH/03-RH-score-easyHeads.ily"
   \include "scores-01-RH/04-RH-score-easyHeads.ily"
-  \pageBreak
+  %\pageBreak
   \include "scores-01-RH/05-RH-score-easyHeads.ily"
   \include "scores-01-RH/06-RH-score-easyHeads.ily"
   \include "scores-01-RH/07-RH-score-easyHeads.ily"
   \include "scores-01-RH/08-RH-score-easyHeads.ily"
   \include "scores-01-RH/09-RH-score-easyHeads.ily"
   \include "scores-01-RH/10-RH-score-easyHeads.ily"
-  \pageBreak
+  %\pageBreak
   \markup  {
     \column {
       \fill-line \fontsize #0.5 \bold { "Eine Oktave höher" }
@@ -59,13 +59,13 @@
   \include "scores-02-LH/02-LH-score-easyHeads.ily"
   \include "scores-02-LH/03-LH-score-easyHeads.ily"
   \include "scores-02-LH/04-LH-score-easyHeads.ily"
-  \pageBreak
+  %\pageBreak
   \include "scores-02-LH/05-LH-score-easyHeads.ily"
   \include "scores-02-LH/06-LH-score-easyHeads.ily"
   \include "scores-02-LH/07-LH-score-easyHeads.ily"
   \include "scores-02-LH/08-LH-score-easyHeads.ily"
   \include "scores-02-LH/09-LH-score-easyHeads.ily"
-  \pageBreak
+  %\pageBreak
   \include "scores-02-LH/10-LH-score-easyHeads.ily"
   \include "scores-02-LH/11-LH-score-easyHeads.ily"
   \include "scores-02-LH/12-LH-score-easyHeads.ily"
@@ -91,7 +91,7 @@
   \include "scores-03-BH/08-score.ily"
   \include "scores-03-BH/09-score.ily"
   \include "scores-03-BH/10-score.ily"
-  \pageBreak
+  %\pageBreak
   \markup  {
     \column {
       \fill-line \fontsize #0.5 \bold {
@@ -126,7 +126,7 @@
   \include "scores-04-Simple/11-score.ily"
   \include "scores-04-Simple/12-score.ily"
 
-  \noPageBreak
+  %\noPageBreak
   \include "footnotes/begleitung.ily"
 }
 
@@ -138,7 +138,9 @@
 \bookpart {
   \include "header-files/05-header.ily"
   \include "header-files/05-header-chords-markup.ily"
-  \markup { \vspace #2 }
+  \markup { \vspace #1 }
+  \include "header-files/05-exercise-chord-change.ily"
+  \markup { \vspace #1 }
 
   \include "scores-05-Chords/01-score.ily"
   \include "scores-05-Chords/02-score.ily"
@@ -152,7 +154,7 @@
   \include "scores-05-Chords/10-score.ily"
   \include "scores-05-Chords/11-score.ily"
   \include "scores-05-Chords/12-score.ily"
-  \noPageBreak
+  %\noPageBreak
   \include "footnotes/akkord.ily"
 }
 
@@ -176,7 +178,7 @@
   \include "scores-06-Arpeggios/10-score.ily"
   \include "scores-06-Arpeggios/11-score.ily"
   \include "scores-06-Arpeggios/12-score.ily"
-  \noPageBreak
+  %\noPageBreak
   \include "footnotes/arpeggio.ily"
   \include "footnotes/alberti-bass.ily"
 }

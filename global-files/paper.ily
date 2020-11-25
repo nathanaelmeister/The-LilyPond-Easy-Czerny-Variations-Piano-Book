@@ -8,6 +8,7 @@ pagenumcol = \markup {
 copyrightcol = \include "global-files/copyright.ily"
 
 \paper {
+  indent = #8
   %page-breaking = #ly:page-turn-breaking
   oddHeaderMarkup = \markup \null
   evenHeaderMarkup = \markup \null
@@ -21,13 +22,15 @@ copyrightcol = \include "global-files/copyright.ily"
     \copyrightcol
   }
   system-system-spacing =
-  #'((basic-distance . 17)
+  #'((basic-distance . 14)
      (minimum-distance . 12)
      (padding . 1)
      (stretchability . 60))
-  %score-markup-spacing.basic-distance = 30
+  score-markup-spacing.basic-distance = 27
   %ragged-last = ##f
   %ragged-last-bottom = ##f
+  %%% the shit below is not working, remove everywhere:
+  %top-system-spacing.basic-distance = #24
 }
 
 % credit for the `\on-the-fly #print-page-number-check-first`:
