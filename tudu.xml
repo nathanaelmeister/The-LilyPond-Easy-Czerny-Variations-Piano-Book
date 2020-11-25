@@ -78,6 +78,31 @@ maybe use \firstmelodyA with \easyHeads and \firstmelodyB without \easyHeads
 		</todo>
 	</todo>
 	<todo done="no" collapse="no">
+		<title>Table Of Contents</title>
+		<text>
+</text>
+		<todo done="yes" collapse="no">
+			<title>German</title>
+			<text>
+</text>
+		</todo>
+		<todo done="yes" collapse="no">
+			<title>English</title>
+			<text>
+</text>
+		</todo>
+		<todo done="no" collapse="no">
+			<title>create MWE with new technique</title>
+			<text>
+</text>
+		</todo>
+		<todo done="no" collapse="no">
+			<title>apluy this</title>
+			<text>
+</text>
+		</todo>
+	</todo>
+	<todo done="no" collapse="no">
 		<title>Translation</title>
 		<text>
 </text>
@@ -107,6 +132,34 @@ maybe use \firstmelodyA with \easyHeads and \firstmelodyB without \easyHeads
 		<text>
 </text>
 		<todo done="no" collapse="no">
+			<title>Compare Header sizes</title>
+			<text>Header title and subtitle seam to have differen sizes
+- Part 5 seems extremely big
+- Part 2 seems quite thin
+...check all
+</text>
+		</todo>
+		<todo done="no" collapse="no">
+			<title>Remove obsolete header files</title>
+			<text>
+</text>
+		</todo>
+		<todo done="no" collapse="no">
+			<title>Working with different keyboard-diagrams</title>
+			<text>
+</text>
+			<todo done="no" collapse="no">
+				<title>find out how it works</title>
+				<text>
+</text>
+			</todo>
+			<todo done="no" collapse="no">
+				<title>apply in Part 5</title>
+				<text>
+</text>
+			</todo>
+		</todo>
+		<todo done="yes" collapse="no">
 			<title>Distances between Scores</title>
 			<text>
 </text>

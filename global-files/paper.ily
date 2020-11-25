@@ -1,3 +1,9 @@
+#(define-markup-command (toc-line layout props label text)
+  (symbol? markup?)
+  (interpret-markup layout props
+   (markup #:fill-line (text #:page-ref label "8" "?"))))
+
+
 pagenumcol = \markup {
   \column {
     \vspace #0.5
@@ -26,11 +32,12 @@ copyrightcol = \include "global-files/copyright.ily"
      (minimum-distance . 12)
      (padding . 1)
      (stretchability . 60))
-  score-markup-spacing.basic-distance = 27
+  score-markup-spacing.basic-distance = 17
   %ragged-last = ##f
   %ragged-last-bottom = ##f
   %%% the shit below is not working, remove everywhere:
   %top-system-spacing.basic-distance = #24
+  %tocItemMarkup = \tocItemWithDotsMarkup
 }
 
 % credit for the `\on-the-fly #print-page-number-check-first`:
