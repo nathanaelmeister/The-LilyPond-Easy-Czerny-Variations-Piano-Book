@@ -179,9 +179,9 @@
   \label #'fifthPart
 
   \include "header-files/05-header.ily"
-  \include "header-files/05-header-chords-markup.ily"
+  \include "input-files/05-theory-chords-markup.ily"
   \markup { \vspace #1 }
-  \include "header-files/05-exercise-chord-change.ily"
+  \include "input-files/05-exercise-chord-change.ily"
   \markup { \vspace #1 }
 
   \include "scores-05-Chords/01-score.ily"

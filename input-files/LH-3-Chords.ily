@@ -1,5 +1,32 @@
 firstChords = {
-  s2*24
+  \repeat volta 2 {
+    <c g'>2
+    <c g'>
+    <b g'>
+    <c g'>
+    <b g'>
+    <b g'>
+    <c g'>
+    <c g'>
+  }
+  \repeat volta 2 {  
+    <b g'>
+    <b g'>
+    <c g'>
+    <c g'>
+    <b g'>
+    <b g'>
+    <c g'>
+    <c g'>
+    <c g'>
+    <c g'>
+    <b g'>
+    <c g'>
+    <b g'>
+    <b g'>
+    <c g'>
+    <c g'>
+  }
 }
 
 secondChords = {
@@ -169,9 +196,55 @@ tenthChords = {
 }
 
 eleventhChords = {
- s2.*24
+  \repeat volta 2 {
+    <c e g>2.
+    <c e g>
+    <b d g>
+    <b d g>
+    <c e g>
+    <c e g>
+    <b d g>
+    <c e g>
+  }
+  \repeat volta 2 {
+    <b d g>
+    <b d g>
+    <c e g>
+    <c e g>
+    <b d g>
+    <b d g>
+    <c e g>
+    <c e g>
+    <c e g>
+    <c e g>
+    <b d g>
+    <b d g>
+    <c e g>
+    <c e g>
+    <b d g>
+    <c e g>
+  }
 }
 
 twelfthChords = {
- s1*16
+  \repeat volta 2 {
+    <c e g>2 <b d g>
+    <c e g>1
+    <b d g>2 <c e g>
+    <b d g>1
+    <c e g>2 <b d g>
+    <c e g> <b d g>
+    <b d g> <b d g>
+    <c e g>1
+  }
+  \repeat volta 2 {
+    <b d g>2 <b d g>
+    <c e g> <c e g>
+    <b d g> <b d g>
+    <c e g> <c e g>
+    <c e g> <b d g>
+    <c e g> <b d g>
+    <c e g> <b d g>
+    <c e g>1
+  }
 }

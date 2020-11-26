@@ -1,5 +1,32 @@
 firstArpeggio = {
- s2*24
+  \repeat volta 2 {
+    c4 g'
+    c, g'
+    b, g'
+    c, g'
+    b, g'
+    b, g'
+    c, g'
+    e g
+  }
+  \repeat volta 2 {
+    b, g'
+    b, g'
+    c, g'
+    c, g'
+    b, g'
+    b, g'
+    c, g'
+    c, g'
+    c, g'
+    e g
+    b, g'
+    c, g'
+    b, g'
+    b, g'
+    c, g'
+    e2
+  }
 }
 
 secondArpeggio = {
@@ -158,9 +185,55 @@ tenthArpeggio = {
 }
 
 eleventhArpeggio = {
-  s2.*24
+  \repeat volta 2 {
+    c4 g' e
+    g e g
+    b, d g
+    d g d
+    c g' e
+    g e g
+    b, d g
+    e g c,
+  }
+  \repeat volta 2 {
+    b g' d
+    d c b
+    c e d
+    c g' e
+    b g' d
+    d c b
+    c e d
+    c g' e
+    c4 g' e
+    g e g
+    b, d g
+    d g d
+    c g' e
+    g e g
+    b, d g
+    e g c,
+  }
 }
 
 twelfthArpeggio = {
-  s1*16
+  \repeat volta 2 {
+    c4 g' b, g'
+    c, g' e g
+    b, g' c, g'
+    b, g' d g
+    c, g' d g
+    c, g' d g
+    d g c, g'
+    e g e2
+  }
+  \repeat volta 2 {
+    b4 g' d g
+    c, g' e g
+    b, g' f g
+    c, g' e g
+    c, g' b, g'
+    c, g' d g
+    c, g' b, g'
+    c, e c r
+  }    
 }

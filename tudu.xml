@@ -2,6 +2,19 @@
 <!DOCTYPE tudu SYSTEM "/usr/share/tudu/tudu.dtd">
 <todo>
 	<todo done="no" collapse="no">
+		<title>NEXT GIT commit</title>
+		<text>
+</text>
+		<todo done="no" collapse="no">
+			<title>git commit</title>
+			<text>- renamed and resorted some header-files to input-files
+- deleted obsolete header files
+- added Part 5; Nr.01, Nr.11-12 accompaniment
+- added Part 6; Nr.01, Nr.11-12 accompaniment
+</text>
+		</todo>
+	</todo>
+	<todo done="no" collapse="no">
 		<title>Scoring</title>
 		<text>
 </text>
@@ -40,7 +53,27 @@ maybe use \firstmelodyA with \easyHeads and \firstmelodyB without \easyHeads
 			<title>Teil 5</title>
 			<text>
 </text>
-			<todo done="no" collapse="no">
+			<todo done="yes" collapse="no">
+				<title>Nr.1 need accompaniment</title>
+				<text>
+</text>
+			</todo>
+			<todo done="yes" collapse="no">
+				<title>Nr.11 need accompaniment</title>
+				<text>
+</text>
+			</todo>
+			<todo done="yes" collapse="no">
+				<title>Nr.12 need accompaniment</title>
+				<text>
+</text>
+			</todo>
+		</todo>
+		<todo done="no" collapse="no">
+			<title>Teil 6</title>
+			<text>
+</text>
+			<todo done="yes" collapse="no">
 				<title>Nr.1 need accompaniment</title>
 				<text>
 </text>
@@ -57,21 +90,16 @@ maybe use \firstmelodyA with \easyHeads and \firstmelodyB without \easyHeads
 			</todo>
 		</todo>
 		<todo done="no" collapse="no">
-			<title>Teil 6</title>
+			<title>Appendix</title>
 			<text>
 </text>
 			<todo done="no" collapse="no">
-				<title>Nr.1 need accompaniment</title>
+				<title>German</title>
 				<text>
 </text>
 			</todo>
 			<todo done="no" collapse="no">
-				<title>Nr.11 need accompaniment</title>
-				<text>
-</text>
-			</todo>
-			<todo done="no" collapse="no">
-				<title>Nr.12 need accompaniment</title>
+				<title>English</title>
 				<text>
 </text>
 			</todo>
@@ -107,12 +135,12 @@ maybe use \firstmelodyA with \easyHeads and \firstmelodyB without \easyHeads
 		<text>
 </text>
 		<todo done="no" collapse="no">
-			<title>Parts</title>
+			<title>Parts - Header</title>
 			<text>
 </text>
 		</todo>
 		<todo done="no" collapse="no">
-			<title>Parts description</title>
+			<title>Parts - Header - description</title>
 			<text>
 </text>
 		</todo>
@@ -139,8 +167,13 @@ maybe use \firstmelodyA with \easyHeads and \firstmelodyB without \easyHeads
 ...check all
 </text>
 		</todo>
-		<todo done="no" collapse="no">
+		<todo done="yes" collapse="no">
 			<title>Remove obsolete header files</title>
+			<text>
+</text>
+		</todo>
+		<todo done="yes" collapse="no">
+			<title>Rename and resort header files in use</title>
 			<text>
 </text>
 		</todo>
