@@ -5,12 +5,12 @@
 		<title>NEXT GIT commit</title>
 		<text>
 </text>
-		<todo done="no" collapse="no">
+		<todo done="yes" collapse="no">
 			<title>git commit</title>
-			<text>- renamed and resorted some header-files to input-files
-- deleted obsolete header files
-- added Part 5; Nr.01, Nr.11-12 accompaniment
-- added Part 6; Nr.01, Nr.11-12 accompaniment
+			<text>- refor matted all header-files and added english translation
+- deleted obsolete score_folder
+- translated and reformatted all Czerny Opus entries
+
 </text>
 		</todo>
 	</todo>
@@ -78,12 +78,12 @@ maybe use \firstmelodyA with \easyHeads and \firstmelodyB without \easyHeads
 				<text>
 </text>
 			</todo>
-			<todo done="no" collapse="no">
+			<todo done="yes" collapse="no">
 				<title>Nr.11 need accompaniment</title>
 				<text>
 </text>
 			</todo>
-			<todo done="no" collapse="no">
+			<todo done="yes" collapse="no">
 				<title>Nr.12 need accompaniment</title>
 				<text>
 </text>
@@ -119,13 +119,18 @@ maybe use \firstmelodyA with \easyHeads and \firstmelodyB without \easyHeads
 			<text>
 </text>
 		</todo>
+		<todo done="yes" collapse="no">
+			<title>Ask on SE Music to apluy preconfigure commands</title>
+			<text>
+</text>
+		</todo>
 		<todo done="no" collapse="no">
 			<title>create MWE with new technique</title>
 			<text>
 </text>
 		</todo>
 		<todo done="no" collapse="no">
-			<title>apluy this</title>
+			<title>apply this</title>
 			<text>
 </text>
 		</todo>
@@ -134,25 +139,41 @@ maybe use \firstmelodyA with \easyHeads and \firstmelodyB without \easyHeads
 		<title>Translation</title>
 		<text>
 </text>
-		<todo done="no" collapse="no">
+		<todo done="yes" collapse="no">
 			<title>Parts - Header</title>
 			<text>
 </text>
 		</todo>
-		<todo done="no" collapse="no">
+		<todo done="yes" collapse="no">
 			<title>Parts - Header - description</title>
 			<text>
 </text>
 		</todo>
-		<todo done="no" collapse="no">
+		<todo done="yes" collapse="no">
 			<title>Opus</title>
 			<text>
 </text>
+			<todo done="yes" collapse="no">
+				<title>added translation</title>
+				<text>
+</text>
+			</todo>
+			<todo done="no" collapse="no">
+				<title>formatting: where does the space come from</title>
+				<text>the space between 'nach /from'
+where does it come from =&gt; postponed
+</text>
+			</todo>
 		</todo>
 		<todo done="no" collapse="no">
-			<title>Footnotes</title>
+			<title>Footnotes =&gt; moved to appendix</title>
 			<text>
 </text>
+			<todo done="no" collapse="no">
+				<title>remove \includes from main file</title>
+				<text>
+</text>
+			</todo>
 		</todo>
 	</todo>
 	<todo done="no" collapse="no">
@@ -166,6 +187,16 @@ maybe use \firstmelodyA with \easyHeads and \firstmelodyB without \easyHeads
 - Part 2 seems quite thin
 ...check all
 </text>
+			<todo done="yes" collapse="no">
+				<title>Make layout-template</title>
+				<text>
+</text>
+			</todo>
+			<todo done="yes" collapse="no">
+				<title>Apply to all parts</title>
+				<text>
+</text>
+			</todo>
 		</todo>
 		<todo done="yes" collapse="no">
 			<title>Remove obsolete header files</title>

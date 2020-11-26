@@ -1,9 +1,18 @@
 \header {
   title = \markup {
-    \hbracket { \smallCaps "Zweiter Teil" }
+    \hbracket \smallCaps "Zweiter Teil"
+    \null \char ##x269C \null
+    \hbracket \smallCaps "Part Two"
   }
-  subtitle = \markup \small {
-    \vspace #2 "- Die Melodie für die linke Hand -" }
+  subsubtitle = \markup { \vspace #1.5
+    \column {
+      \fill-line {
+        "- Die Melodie¹ für die linke Hand -" }
+      \fill-line \italic {
+        "- The melody¹ for the left hand -" }
+      \fill-line { \vspace #1 }
+    }
+  }
   instrument = \markup { \null }
   composer = ""
   tagline = ##f

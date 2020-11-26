@@ -12,6 +12,6 @@
   }
   \layout { }
   \header {
-    opus = \markup \tiny { "nach Op. 584, Nr. 1" }
+    opus = \markup \tiny { "nach" \italic "/from:" " Op. 584, Nr. 1" }
   }
 }
