@@ -20,10 +20,12 @@ copyrightcol = \include "global-files/copyright.ily"
   evenHeaderMarkup = \markup \null
   oddFooterMarkup = \markup { \copyrightcol
     \on-the-fly #print-page-number-check-first
+    %\on-the-fly #print-page-number-check-last
     \pagenumcol
   }
   evenFooterMarkup = \markup {
     \on-the-fly #print-page-number-check-first
+    %\on-the-fly #print-page-number-check-last
     \pagenumcol
     \copyrightcol
   }

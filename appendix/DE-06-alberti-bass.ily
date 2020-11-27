@@ -2,8 +2,7 @@
   %\vspace #10
   \column {
     %\draw-hline
-    \line { \null }
-    \line \bold \smallCaps \tiny { "² Alberti Bass" }
+    \line \bold \smallCaps \tiny { "⁶) Alberti Bass" }
     \wordwrap \italic \tiny {
       Der Alberti-Bass wurde er nach seinem Erfinder Domenico Alberti benannt.
       Er ist eine spezielle Art der musikalischen Begleitung,

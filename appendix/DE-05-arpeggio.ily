@@ -1,8 +1,8 @@
 \markup {
   %\vspace #10
   \column {
-    \draw-hline
-    \line \bold \smallCaps \tiny { "* Arpeggio" }
+    %\draw-hline
+    \line \bold \smallCaps \tiny { "⁵) Arpeggio" }
     \wordwrap \italic \tiny {
       Arpeggio (Mehrzahl: Arpeggien oder Arpeggios)
       ist ein Akkord, bei dem die einzelnen Töne nicht gleichzeitig,

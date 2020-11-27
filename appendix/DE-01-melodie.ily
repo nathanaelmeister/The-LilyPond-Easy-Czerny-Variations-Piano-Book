@@ -1,8 +1,8 @@
 \markup {
   %\vspace #10
   \column {
-    \draw-hline
-    \line \bold \smallCaps \tiny { "* Melodie" }
+    %\draw-hline
+    \line \bold \smallCaps \tiny { "¹) Melodie" }
     \wordwrap \italic \tiny {
       Eine Melodie (von griech. melos = Lied und odé = Gesang) 
       ist eine geordnete zeitliche (horizontale) Abfolge von Tönen. 

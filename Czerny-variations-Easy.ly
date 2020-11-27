@@ -25,8 +25,14 @@
     \toc-line #'vierterTeil "Vierter Teil - Einfache Begleitung in der linken Hand"
     \toc-line #'fünfterTeil "Fünfter Teil - Begleitung mit ganzen Akkorden in der linken Hand"
     \toc-line #'sechsterTeil "Sechster Teil - Arpeggios und \"Alberti-Bass\" Figuren in der linken Hand "
+    \toc-line #'appendixDE "Appendix"
+    \toc-line #'index "Index"
   }
  }
+\markup { \vspace #0.5 }
+\markup {
+  \fill-line \huge { \char ##x269C }
+}
 
 \markup {  \vspace #7 }
 
@@ -42,8 +48,15 @@
     \toc-line #'fourthPart "Fourth Part - Easy accompaniment with the left hand"
     \toc-line #'fifthPart "Fifth Part - Accompaniment with whole chords"
     \toc-line #'sixthPart "Sixth Part - Arpeggios and \"Alberti-Bass\" figures in the left hand"
+    \toc-line #'appendixEN "Appendix"
+    \toc-line #'index "Index"
   }
  }
+\markup { \vspace #0.5 }
+\markup {
+  \fill-line \huge { \char ##x269C }
+}
+
 \pageBreak
 
 % Erster Teil, die Melodie Rechte Hand ==================
@@ -79,7 +92,6 @@
 
   \include "scores-01-RH/11-RH-score-easyHeads.ily"
   \include "scores-01-RH/12-RH-score-easyHeads.ily"
-  \include "footnotes/small-melody.ily"
 }
 
 % Zweiter Teil, die Melodie Linke Hand ==================
@@ -164,9 +176,6 @@
   \include "scores-04-Simple/10-score.ily"
   \include "scores-04-Simple/11-score.ily"
   \include "scores-04-Simple/12-score.ily"
-
-  %\noPageBreak
-  \include "footnotes/begleitung.ily"
 }
 
 % Fünfter Teil - ganze Akkorde
@@ -196,8 +205,6 @@
   \include "scores-05-Chords/10-score.ily"
   \include "scores-05-Chords/11-score.ily"
   \include "scores-05-Chords/12-score.ily"
-  %\noPageBreak
-  \include "footnotes/akkord.ily"
 }
 
 % Sechster Teil - Arpeggien
@@ -224,7 +231,74 @@
   \include "scores-06-Arpeggios/11-score.ily"
   \include "scores-06-Arpeggios/12-score.ily"
   %\noPageBreak
-  \include "footnotes/arpeggio.ily"
-  \include "footnotes/alberti-bass.ily"
 }
 
+\bookpart {
+  \label #'appendixDE
+
+  % Appendix in German:
+  \markup \draw-hline
+  \markup {
+    \fill-line { \large \bold \smallCaps
+      "Appendix (deutsch):"
+    }
+  }
+  \markup \draw-hline
+
+  \markup { \vspace #1.5 }
+  \include "appendix/DE-01-melodie.ily"
+  \markup { \vspace #0.5 }
+  \include "appendix/DE-02-bass.ily"
+  \markup { \vspace #0.5 }
+  \include "appendix/DE-03-begleitung.ily"
+  \markup { \vspace #0.5 }
+  \include "appendix/DE-04-akkord.ily"
+  \markup { \vspace #0.5 }
+  \include "appendix/DE-05-arpeggio.ily"
+  \markup { \vspace #0.5 }
+  \include "appendix/DE-06-alberti-bass.ily"
+  \markup { \vspace #0.5 }
+  \markup {
+    \fill-line \huge { \char ##x269C }
+  }
+  \markup { \vspace #1 }
+  \markup \draw-hline
+}
+
+\bookpart {
+  \label #'appendixEN
+
+  % Appendix in German:
+  \markup \draw-hline
+  \markup {
+    \fill-line { \large \bold \smallCaps
+      "Appendix (english):"
+    }
+  }
+  \markup \draw-hline
+
+  \markup { \vspace #1.5 }
+  \include "appendix/EN-01-melody.ily"
+  \markup { \vspace #0.5 }
+  \include "appendix/EN-02-bass.ily"
+  \markup { \vspace #0.5 }
+  \include "appendix/EN-03-accompaniment.ily"
+  \markup { \vspace #0.5 }
+  \include "appendix/EN-04-chord.ily"
+  \markup { \vspace #0.5 }
+  \include "appendix/EN-05-arpeggio.ily"
+  \markup { \vspace #0.5 }
+  \include "appendix/EN-06-alberti-bass.ily"
+  \markup { \vspace #0.5 }
+  \markup {
+    \fill-line \huge { \char ##x269C }
+  }
+  \markup { \vspace #1 }
+  \markup \draw-hline
+}
+
+\bookpart {
+  \label #'index
+
+  \include "input-files/index.ily"
+}

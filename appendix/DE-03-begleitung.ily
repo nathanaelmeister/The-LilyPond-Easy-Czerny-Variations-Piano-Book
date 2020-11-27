@@ -1,8 +1,8 @@
 \markup {
   %\vspace #10
   \column {
-    \draw-hline
-    \line \bold \smallCaps \tiny { "* Begleitung" }
+    %\draw-hline
+    \line \bold \smallCaps \tiny { "³) Begleitung" }
     \wordwrap \italic \tiny {
       Die Begleitung ist das musikalische Material,
       das zusätzlich zu einer Melodie gespielt wird,
