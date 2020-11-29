@@ -69,7 +69,7 @@ thirdMelArp = {
 
 fourthMelArp = {
   % nach Op. 824, Nr. 7
-  c4\mf( e) g2   | %1
+  c4( e) g2   | %1
   c,4( e) g2     | %2
   f4( d) g( f)   | %3
   e1             | %4
@@ -78,13 +78,13 @@ fourthMelArp = {
   f4( d) f( d)   | %7
   c1             | %8
   \bar "||"
-  d4\f( e) f( d) | %9
+  d4( e) f( d) | %9
   e2 g           | %10
-  d4\p( e) f( g) | %11
+  d4( e) f( g) | %11
   e2 g           | %12
-  c,4\f( e) g2   | %13
+  c,4( e) g2   | %13
   c,4( e) g2     | %14
-  g4\p( e) f( d) | %15
+  g4( e) f( d) | %15
   c1             | %16
   \bar "|."
 }
