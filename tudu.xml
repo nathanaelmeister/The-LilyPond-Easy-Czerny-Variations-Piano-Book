@@ -28,7 +28,7 @@
 			<text>
 </text>
 		</todo>
-		<todo done="no" collapse="no">
+		<todo done="no" collapse="yes">
 			<title>Teil 3</title>
 			<text>
 </text>
@@ -39,7 +39,7 @@ maybe use \firstmelodyA with \easyHeads and \firstmelodyB without \easyHeads
 </text>
 			</todo>
 		</todo>
-		<todo done="no" collapse="no">
+		<todo done="no" collapse="yes">
 			<title>Teil 4</title>
 			<text>
 </text>
@@ -49,7 +49,7 @@ maybe use \firstmelodyA with \easyHeads and \firstmelodyB without \easyHeads
 </text>
 			</todo>
 		</todo>
-		<todo done="no" collapse="no">
+		<todo done="no" collapse="yes">
 			<title>Teil 5</title>
 			<text>
 </text>
@@ -73,6 +73,11 @@ maybe use \firstmelodyA with \easyHeads and \firstmelodyB without \easyHeads
 			<title>Teil 6</title>
 			<text>
 </text>
+			<todo done="no" collapse="no">
+				<title>Theory and technical basics</title>
+				<text>
+</text>
+			</todo>
 			<todo done="yes" collapse="no">
 				<title>Nr.1 need accompaniment</title>
 				<text>
@@ -93,13 +98,18 @@ maybe use \firstmelodyA with \easyHeads and \firstmelodyB without \easyHeads
 			<title>Appendix</title>
 			<text>
 </text>
-			<todo done="no" collapse="no">
+			<todo done="yes" collapse="no">
 				<title>German</title>
 				<text>
 </text>
 			</todo>
-			<todo done="no" collapse="no">
+			<todo done="yes" collapse="no">
 				<title>English</title>
+				<text>
+</text>
+			</todo>
+			<todo done="no" collapse="no">
+				<title>move last line to footer</title>
 				<text>
 </text>
 			</todo>
@@ -131,6 +141,11 @@ maybe use \firstmelodyA with \easyHeads and \firstmelodyB without \easyHeads
 		</todo>
 		<todo done="no" collapse="no">
 			<title>apply this</title>
+			<text>
+</text>
+		</todo>
+		<todo done="no" collapse="no">
+			<title>fix spacing (move up)</title>
 			<text>
 </text>
 		</todo>
@@ -169,7 +184,7 @@ where does it come from =&gt; postponed
 			<title>Footnotes =&gt; moved to appendix</title>
 			<text>
 </text>
-			<todo done="no" collapse="no">
+			<todo done="yes" collapse="no">
 				<title>remove \includes from main file</title>
 				<text>
 </text>
@@ -228,8 +243,8 @@ where does it come from =&gt; postponed
 			<text>
 </text>
 		</todo>
-		<todo done="no" collapse="no">
-			<title>Manual Breaking</title>
+		<todo done="yes" collapse="no">
+			<title>Manual Breaking =&gt; fixed applying horizontal space</title>
 			<text>
 </text>
 		</todo>
@@ -237,7 +252,7 @@ where does it come from =&gt; postponed
 			<title>3 different outputs</title>
 			<text>
 </text>
-			<todo done="no" collapse="no">
+			<todo done="yes" collapse="no">
 				<title>1.) no fingering</title>
 				<text>
 </text>

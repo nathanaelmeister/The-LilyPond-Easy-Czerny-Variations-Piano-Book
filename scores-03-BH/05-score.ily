@@ -6,6 +6,8 @@
       midiInstrument = "acoustic grand"
     }
     \relative c'' {
+      \override Score.NonMusicalPaperColumn.padding = #2
+
       \clef treble
       \time 4/4
       \key c \major
@@ -16,6 +18,8 @@
       midiInstrument = "acoustic grand"
     }
     \relative c' {
+      %\override Score.NonMusicalPaperColumn.padding = #2
+
       \clef bass
       \time 4/4
       \key c \major

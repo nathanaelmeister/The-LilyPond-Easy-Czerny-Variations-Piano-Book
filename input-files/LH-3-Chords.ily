@@ -9,7 +9,7 @@ firstChords = {
     <c g'>
     <c g'>
   }
-  \repeat volta 2 {  
+  \repeat volta 2 {
     <b g'>
     <b g'>
     <c g'>

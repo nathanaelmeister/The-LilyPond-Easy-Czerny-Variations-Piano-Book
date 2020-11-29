@@ -14,8 +14,8 @@ pagenumcol = \markup {
 copyrightcol = \include "global-files/copyright.ily"
 
 \paper {
-  indent = #8
-  %page-breaking = #ly:page-turn-breaking
+  indent = #12
+  page-breaking = #ly:page-turn-breaking
   oddHeaderMarkup = \markup \null
   evenHeaderMarkup = \markup \null
   oddFooterMarkup = \markup { \copyrightcol
@@ -31,10 +31,10 @@ copyrightcol = \include "global-files/copyright.ily"
   }
   system-system-spacing =
   #'((basic-distance . 14)
-     (minimum-distance . 12)
+     (minimum-distance . 10)
      (padding . 1)
      (stretchability . 60))
-  score-markup-spacing.basic-distance = 17
+  score-markup-spacing.basic-distance = 20
   %ragged-last = ##f
   %ragged-last-bottom = ##f
   %%% the shit below is not working, remove everywhere:

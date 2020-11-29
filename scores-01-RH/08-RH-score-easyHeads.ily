@@ -2,6 +2,8 @@
   \new Staff \with {
     instrumentName = \markup { \number "8." }}
   \relative c' {
+    \override Score.NonMusicalPaperColumn.padding = #2
+
     \clef treble
     \numericTimeSignature
     \time 4/4

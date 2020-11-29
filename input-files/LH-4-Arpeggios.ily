@@ -101,22 +101,22 @@ fifthArpeggio = {
 }
 
 sixthArpeggio = {
-  c4( e g) | %1
-  c,( e g) | %2
-  b,( d g) | %3
-  c,( e g) | %4
-  c,( e g) | %5
-  c,( e g) | %6
-  c,( e g) | %7
-  b,( d g) | %8
-  c,( e g) | %9
-  c,( e g) | %10
-  b,( d g) | %11
-  c,( e g) | %12
-  c,( e g) | %13
-  b,( d g) | %14
-  c,( e g) | %15
-  c2.      | %16
+  c4 e g | %1
+  c, e g | %2
+  b, d g | %3
+  c, e g | %4
+  c, e g | %5
+  c, e g | %6
+  c, e g | %7
+  b, d g | %8
+  c, e g | %9
+  c, e g | %10
+  b, d g | %11
+  c, e g | %12
+  c, e g | %13
+  b, d g | %14
+  c, e g | %15
+  c2.    | %16
   \bar "|."
 }
 

@@ -4,6 +4,8 @@
   <<
   \new Voice {
     \relative c {
+      %\override Score.NonMusicalPaperColumn.padding = #2
+
       \clef bass
       \time 4/4
       \numericTimeSignature
