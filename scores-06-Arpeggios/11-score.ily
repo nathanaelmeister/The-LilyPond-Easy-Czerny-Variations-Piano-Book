@@ -29,6 +29,6 @@
   >>
   \layout { }
   \header {
-    opus = \markup \tiny { "nach" \italic "/from:" " 100 Recreations; Nr. 2" }
+    opus = \markup \tiny { "nach /" \italic "from:" " 100 Recreations; Nr. 2" }
   }
 }

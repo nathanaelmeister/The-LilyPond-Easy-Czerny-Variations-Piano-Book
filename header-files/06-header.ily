@@ -7,9 +7,9 @@
   subsubtitle = \markup { \vspace #1.5
     \column {
       \fill-line {
-        "- Begleitung mit Arpeggios⁵ in der linken Hand -" }
+        "- Arpeggios⁵ und Alberti-Bass⁶ Figuren in der linken Hand -" }
       \fill-line \italic {
-        "- Accompaniment with arpeggios⁵ in the left hand -" }
+        "- Arpeggio⁵ and Alberti-Bass⁶ figures in the left hand -" }
       \fill-line { \vspace #1 }
     }
   }

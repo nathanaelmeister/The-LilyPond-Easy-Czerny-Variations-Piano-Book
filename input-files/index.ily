@@ -29,18 +29,18 @@
 \markup {
   \fill-line {
     \column {
-      \line \tiny { \null \bold "Nr.1" "nach" \italic "/from:" " 100 Recreations; Nr. 1" \null }
-      \line \tiny { \null \bold "Nr.2" "nach" \italic "/from:" " Op. 584, Nr. 1" \null }
-      \line \tiny { \null \bold "Nr.3" "nach" \italic "/from:" " Op. 599, Nr. 14" \null }
-      \line \tiny { \null \bold "Nr.4" "nach" \italic "/from:" " Op. 824, Nr. 7" \null }
-      \line \tiny { \null \bold "Nr.5" "nach" \italic "/from:" " Op. 481, Nr. 2" \null }
-      \line \tiny { \null \bold "Nr.6" "nach" \italic "/from:" " Op. 824, Nr. 6" \null }
-      \line \tiny { \null \bold "Nr.7" "nach" \italic "/from:" " Op. 139, Nr. 2" \null }
-      \line \tiny { \null \bold "Nr.8" "nach" \italic "/from:" " Op. 584, Nr. 2" \null }
-      \line \tiny { \null \bold "Nr.9" "nach" \italic "/from:" " Op. 824, Nr. 12" \null }
-      \line \tiny { \null \bold "Nr.10" "nach" \italic "/from:" " Op. 824, Nr. 10" \null }
-      \line \tiny { \null \bold "Nr.11" "nach" \italic "/from:" " 100 Recreations; Nr. 2" \null }
-      \line \tiny { \null \bold "Nr.12" "nach" \italic "/from:" " Op. 824, Nr. 14" \null }
+      \line \tiny { \null \bold "Nr. 1" "nach" "-" \italic "from:" "100 Recreations; Nr. 1" \null }
+      \line \tiny { \null \bold "Nr. 2" "nach" "-" \italic "from:" "Op. 584, Nr. 1" \null }
+      \line \tiny { \null \bold "Nr. 3" "nach" "-" \italic "from:" "Op. 599, Nr. 14" \null }
+      \line \tiny { \null \bold "Nr. 4" "nach" "-" \italic "from:" "Op. 824, Nr. 7" \null }
+      \line \tiny { \null \bold "Nr. 5" "nach" "-" \italic "from:" "Op. 481, Nr. 2" \null }
+      \line \tiny { \null \bold "Nr. 6" "nach" "-" \italic "from:" "Op. 824, Nr. 6" \null }
+      \line \tiny { \null \bold "Nr. 7" "nach" "-" \italic "from:" "Op. 139, Nr. 2" \null }
+      \line \tiny { \null \bold "Nr. 8" "nach" "-" \italic "from:" "Op. 584, Nr. 2" \null }
+      \line \tiny { \null \bold "Nr. 9" "nach" "-" \italic "from:" "Op. 824, Nr. 12" \null }
+      \line \tiny { \null \bold "Nr. 10" "nach" "-" \italic "from:" "Op. 824, Nr. 10" \null }
+      \line \tiny { \null \bold "Nr. 11" "nach" "-" \italic "from:" "100 Recreations; Nr. 2" \null }
+      \line \tiny { \null \bold "Nr. 12" "nach" "-" \italic "from:" "Op. 824, Nr. 14" \null }
     }
   }
 }
@@ -49,7 +49,7 @@
   \column {
     \fill-line { \vspace #1 }
     \fill-line { \fill-line \huge { \char ##x269C }}
-    \fill-line { \vspace #1 }
+    \fill-line { \vspace #1.5 }
   }
 }
 
@@ -65,20 +65,19 @@
 \markup {
   \fill-line {
     \column {
-      \line \tiny { \null "nach" \italic "/from:" " 100 Recreations; Nr. 1" \null }
-      \line \tiny { \null "nach" \italic "/from:" " 100 Recreations; Nr. 2" \null }
-      \line \tiny { \null "nach" \italic "/from:" " Op. 139, Nr. 2" \null }
-      \line \tiny { \null "nach" \italic "/from:" " Op. 481, Nr. 2" \null }
-      \line \tiny { \null "nach" \italic "/from:" " Op. 584, Nr. 1" \null }
-      \line \tiny { \null "nach" \italic "/from:" " Op. 584, Nr. 2" \null }
-      \line \tiny { \null "nach" \italic "/from:" " Op. 599, Nr. 14" \null }
-      \line \tiny { \null "nach" \italic "/from:" " Op. 824, Nr. 6" \null }
-      \line \tiny { \null "nach" \italic "/from:" " Op. 824, Nr. 7" \null }
-      \line \tiny { \null "nach" \italic "/from:" " Op. 824, Nr. 10" \null }
-      \line \tiny { \null "nach" \italic "/from:" " Op. 824, Nr. 12" \null }
-      \line \tiny { \null "nach" \italic "/from:" " Op. 824, Nr. 14" \null }
-      \line \tiny { \null "nach" \italic "/from:" " Op. 599, Nr. 14" \null }
-      \line { \vspace #1 }
+      \line \tiny { \null "nach" "-" \italic "from:" "100 Recreations; Nr. 1" \null }
+      \line \tiny { \null "nach" "-" \italic "from:" "100 Recreations; Nr. 2" \null }
+      \line \tiny { \null "nach" "-" \italic "from:" "Op. 139, Nr. 2" \null }
+      \line \tiny { \null "nach" "-" \italic "from:" "Op. 481, Nr. 2" \null }
+      \line \tiny { \null "nach" "-" \italic "from:" "Op. 584, Nr. 1" \null }
+      \line \tiny { \null "nach" "-" \italic "from:" "Op. 584, Nr. 2" \null }
+      \line \tiny { \null "nach" "-" \italic "from:" "Op. 599, Nr. 14" \null }
+      \line \tiny { \null "nach" "-" \italic "from:" "Op. 824, Nr. 6" \null }
+      \line \tiny { \null "nach" "-" \italic "from:" "Op. 824, Nr. 7" \null }
+      \line \tiny { \null "nach" "-" \italic "from:" "Op. 824, Nr. 10" \null }
+      \line \tiny { \null "nach" "-" \italic "from:" "Op. 824, Nr. 12" \null }
+      \line \tiny { \null "nach" "-" \italic "from:" "Op. 824, Nr. 14" \null }
+      \line \tiny { \null "nach" "-" \italic "from:" "Op. 599, Nr. 14" \null }
     }
   }
 }
@@ -87,7 +86,7 @@
   \column {
     \fill-line { \vspace #1 }
     \fill-line { \fill-line \huge { \char ##x269C }}
-    \fill-line { \vspace #2 }
+    \fill-line { \vspace #3 }
   }
 }
 

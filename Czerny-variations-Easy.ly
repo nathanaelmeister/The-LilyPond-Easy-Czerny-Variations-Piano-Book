@@ -12,7 +12,7 @@
 
 \include "global-files/book-title-page.ily"
 
-\markup { \vspace #7 }
+\markup { \vspace #2.5 }
 
 %Inhaltsverzeichnis
 \label #'Inh
@@ -30,12 +30,12 @@
     \toc-line #'index "Index"
   }
  }
-\markup { \vspace #0.5 }
+
+\markup { \vspace #2.5 }
 \markup {
   \fill-line \huge { \char ##x269C }
 }
-
-\markup {  \vspace #7 }
+\markup {  \vspace #3 }
 
 %Table of Contens
 \label #'toc
@@ -48,12 +48,12 @@
     \toc-line #'thirdPart "Third Part - The melodies for both hands"
     \toc-line #'fourthPart "Fourth Part - Easy accompaniment with the left hand"
     \toc-line #'fifthPart "Fifth Part - Accompaniment with whole chords"
-    \toc-line #'sixthPart "Sixth Part - Arpeggios and \"Alberti-Bass\" figures in the left hand"
+    \toc-line #'sixthPart "Sixth Part - Arpeggio and \"Alberti-Bass\" figures in the left hand"
     \toc-line #'appendixEN "Appendix"
     \toc-line #'index "Index"
   }
  }
-\markup { \vspace #0.5 }
+\markup { \vspace #2.5 }
 \markup {
   \fill-line \huge { \char ##x269C }
 }
@@ -254,7 +254,7 @@
     \fill-line \huge { \char ##x269C }
   }
   \markup { \vspace #1 }
-  \markup \draw-hline
+  %\markup \draw-hline
 }
 
 % Appendix (English)
@@ -287,7 +287,7 @@
     \fill-line \huge { \char ##x269C }
   }
   \markup { \vspace #1 }
-  \markup \draw-hline
+  %\markup \draw-hline
 }
 
 \bookpart {

@@ -26,13 +26,25 @@
     \fill-line \fontsize #6 \italic { "for Piano two Hands" }
     \line { \vspace #2.5 }
     \fill-line { \postscript #"-20 0 moveto 40 0 rlineto stroke" }
-    \line { \vspace #1 }
-    \fill-line \fontsize #4 { "Nathanael Meister" }
-    \line { \vspace #0.5 }
-    \fill-line \fontsize #3 { "Opus 70" }
-    \line { \vspace #0.5 }
+    \line { \vspace #0.7 }
+
+    \fill-line \fontsize #4 \bold { "Nathanael Meister" }
+    \line { \vspace #0.25 }
+
+    \fill-line \fontsize #3 { "Op. 7" }
+    \line { \vspace #0.2 }
+    \fill-line \fontsize #3 {
+      \line {
+        \null "(Buch I  -"
+        \italic " Book I)"
+        \null
+      }
+    }
+    %\line { \vspace #0.25 }
+    %\fill-line \fontsize #7 { \char ##x269C }
+
+    \line { \vspace #0.25 }
     \fill-line { \postscript #"-20 0 moveto 40 0 rlineto stroke" }
-    \line { \vspace #6 }
   }
 }
 

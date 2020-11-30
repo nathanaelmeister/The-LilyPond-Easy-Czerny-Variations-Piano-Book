@@ -108,7 +108,7 @@ maybe use \firstmelodyA with \easyHeads and \firstmelodyB without \easyHeads
 				<text>
 </text>
 			</todo>
-			<todo done="no" collapse="no">
+			<todo done="yes" collapse="no">
 				<title>move last line to footer</title>
 				<text>
 </text>
@@ -144,7 +144,7 @@ maybe use \firstmelodyA with \easyHeads and \firstmelodyB without \easyHeads
 			<text>
 </text>
 		</todo>
-		<todo done="no" collapse="no">
+		<todo done="yes" collapse="no">
 			<title>fix spacing (move up)</title>
 			<text>
 </text>
@@ -173,7 +173,7 @@ maybe use \firstmelodyA with \easyHeads and \firstmelodyB without \easyHeads
 				<text>
 </text>
 			</todo>
-			<todo done="no" collapse="no">
+			<todo done="yes" collapse="no">
 				<title>formatting: where does the space come from</title>
 				<text>the space between 'nach /from'
 where does it come from =&gt; postponed
@@ -231,6 +231,16 @@ where does it come from =&gt; postponed
 				<title>find out how it works</title>
 				<text>
 </text>
+				<todo done="no" collapse="no">
+					<title>Include file only ones?</title>
+					<text>
+</text>
+				</todo>
+				<todo done="no" collapse="no">
+					<title>Override include</title>
+					<text>
+</text>
+				</todo>
 			</todo>
 			<todo done="no" collapse="no">
 				<title>apply in Part 5</title>
