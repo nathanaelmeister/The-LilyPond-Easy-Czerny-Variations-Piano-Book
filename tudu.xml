@@ -149,6 +149,11 @@ maybe use \firstmelodyA with \easyHeads and \firstmelodyB without \easyHeads
 			<text>
 </text>
 		</todo>
+		<todo done="yes" collapse="no">
+			<title>ugly: added dotted lines manually</title>
+			<text>
+</text>
+		</todo>
 	</todo>
 	<todo done="no" collapse="no">
 		<title>Translation</title>
@@ -267,7 +272,7 @@ where does it come from =&gt; postponed
 				<text>
 </text>
 			</todo>
-			<todo done="no" collapse="no">
+			<todo done="yes" collapse="no">
 				<title>2.) only first fingering</title>
 				<text>
 </text>

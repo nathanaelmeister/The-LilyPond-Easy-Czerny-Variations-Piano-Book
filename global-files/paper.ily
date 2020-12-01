@@ -1,9 +1,3 @@
-#(define-markup-command (toc-line layout props label text)
-  (symbol? markup?)
-  (interpret-markup layout props
-   (markup #:fill-line (text #:page-ref label "8" "?"))))
-
-
 pagenumcol = \markup {
   \column {
     \vspace #0.5

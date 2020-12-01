@@ -7,10 +7,13 @@
   subsubtitle = \markup { \vspace #1.5
     \column {
       \fill-line {
-        "- Die Melodie¹ für die rechte Hand -" }
-      \fill-line \italic {
-        "- The melody¹ for the right hand -" }
-      \fill-line { \vspace #1 }
+        \null
+        "Die Melodie¹ für die rechte Hand. "
+        \italic
+        "- The melody¹ for the right hand."
+        \null
+      }
+      \line { \vspace #1 }
     }
   }
   instrument = \markup { \null }

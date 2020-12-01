@@ -12,51 +12,9 @@
 
 \include "global-files/book-title-page.ily"
 
-\markup { \vspace #2.5 }
-
-%Inhaltsverzeichnis
-\label #'Inh
-\markup {
-  \column {
-    \large \fill-line { \null \bold "Inhaltsverzeichnis" \null }
-    \toc-line #'Inh "Inhaltsverzeichnis"
-    \toc-line #'ersterTeil "Erster Teil -  Die Melodie für die rechte Hand"
-    \toc-line #'zweiterTeil "Zweiter Teil -  Die Melodie für die linke Hand"
-    \toc-line #'dritterTeil "Dritter Teil - Die Melodien für beide Hände"
-    \toc-line #'vierterTeil "Vierter Teil - Einfache Begleitung in der linken Hand"
-    \toc-line #'fünfterTeil "Fünfter Teil - Begleitung mit ganzen Akkorden in der linken Hand"
-    \toc-line #'sechsterTeil "Sechster Teil - Arpeggios und \"Alberti-Bass\" Figuren in der linken Hand "
-    \toc-line #'appendixDE "Appendix"
-    \toc-line #'index "Index"
-  }
- }
-
-\markup { \vspace #2.5 }
-\markup {
-  \fill-line \huge { \char ##x269C }
-}
-\markup {  \vspace #3 }
-
-%Table of Contens
-\label #'toc
-\markup {
-  \column {
-    \large \fill-line { \null \bold \italic "Table Of Contents" \null }
-    \toc-line #'toc "Table Of Contents"
-    \toc-line #'firstPart "First Part - The melody for the right hand"
-    \toc-line #'secondPart "Second Part - The melody for the left hand"
-    \toc-line #'thirdPart "Third Part - The melodies for both hands"
-    \toc-line #'fourthPart "Fourth Part - Easy accompaniment with the left hand"
-    \toc-line #'fifthPart "Fifth Part - Accompaniment with whole chords"
-    \toc-line #'sixthPart "Sixth Part - Arpeggio and \"Alberti-Bass\" figures in the left hand"
-    \toc-line #'appendixEN "Appendix"
-    \toc-line #'index "Index"
-  }
- }
-\markup { \vspace #2.5 }
-\markup {
-  \fill-line \huge { \char ##x269C }
-}
+% Inhaltsverzeichnis:
+\markup { \vspace #1 }
+\include "global-files/toc.ily"
 
 \pageBreak
 
