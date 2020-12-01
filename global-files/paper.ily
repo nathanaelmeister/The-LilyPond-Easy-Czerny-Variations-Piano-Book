@@ -12,14 +12,13 @@ copyrightcol = \include "global-files/copyright.ily"
   page-breaking = #ly:page-turn-breaking
   oddHeaderMarkup = \markup \null
   evenHeaderMarkup = \markup \null
-  oddFooterMarkup = \markup { \copyrightcol
+  oddFooterMarkup = \markup {
+    \copyrightcol
     \on-the-fly #print-page-number-check-first
-    %\on-the-fly #print-page-number-check-last
     \pagenumcol
   }
   evenFooterMarkup = \markup {
     \on-the-fly #print-page-number-check-first
-    %\on-the-fly #print-page-number-check-last
     \pagenumcol
     \copyrightcol
   }

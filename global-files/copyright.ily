@@ -5,15 +5,23 @@
       \line {
         \simple
         #(strftime
-          "© %Y by Heart & Trust Music Engraving"
+          "© %Y by Heart & Trust Music Engraving "
           (localtime (current-time)))
-      }
-      \line {
-        "Educational copying welcome. "
         #(strftime
           "(rev. %m-%d)"
           (localtime (current-time)))
+        \with-url \gitlink "● Source files Git-repository"
+      }
+      \line {
+        \abs-fontsize #5.2 \with-color #grey \bold { "ǀ" }
+        " This Typeset is done by using"
+        \with-url #"http://www.lilypond.org" " LilyPond "
+        #(string-append (lilypond-version))
+        "● Educational copying welcome. "
+        \abs-fontsize #5.2 \with-color #grey \bold { "ǀ" }
       }
     }
   }
 }
+
+

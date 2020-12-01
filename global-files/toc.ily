@@ -47,7 +47,7 @@
     \line { \null }
     \toc-line #'toc "Table Of Contents"
     \toc-line #'firstPart \line { \bold \smallCaps "First Part"
-      \postscript #"0.3 setlinewidth 1 setlinecap [0 1] 0 setdash 1 0 moveto 74 0 rlineto stroke" }
+      \postscript #"0.3 setlinewidth 1 setlinecap [0 1] 0 setdash 1 0 moveto 73 0 rlineto stroke" }
     \line { "- The melody for the right hand" }
     \toc-line #'secondPart \line { \bold \smallCaps "Second Part"
       \postscript #"0.3 setlinewidth 1 setlinecap [0 1] 0 setdash 1 0 moveto 71 0 rlineto stroke" }

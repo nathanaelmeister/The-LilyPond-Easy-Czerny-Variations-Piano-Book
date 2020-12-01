@@ -3,8 +3,8 @@
 #(set-default-paper-size "a4")
 #(set-global-staff-size 24)
 
+\include "global-files/gitlink.ily"
 \include "global-files/paper.ily"
-
 \include "global-files/diagramm_script_big.ily"
 \include "global-files/easyHeads.ily"
 \include "input-files/melody-1.ily"
