@@ -4,7 +4,7 @@
     %\draw-hline
     \line \bold \smallCaps \tiny { "⁶) Alberti Bass" }
     \wordwrap \italic \tiny {
-      Der Alberti-Bass wurde er nach seinem Erfinder Domenico Alberti benannt.
+      Der Alberti-Bass wurde nach seinem Erfinder Domenico Alberti benannt.
       Er ist eine spezielle Art der musikalischen Begleitung,
       die vor allem in der klassischen Musik Verwendung findet.
       Es handelt sich um ein Arpeggio, bei der die einzelnen Töne der Akkorde

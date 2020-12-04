@@ -8,7 +8,9 @@
       ist eine geordnete zeitliche (horizontale) Abfolge von Tönen. 
       Sie ist durch die auftretenden Intervalle (fallend, steigend) 
       und ihren Rhythmus bestimmt. Kennzeichnend für eine Melodie ist, 
-      dass sie als selbständige musikalische Gestalt wahrgenommen wird.
+      dass sie als selbständige musikalische Gestalt wahrgenommen wird  
+      und im Gegensatz zum Akkord nicht mehrere Töne gleichzeitig gespielt 
+      werden.
     }
     \line { \null }
   }

@@ -11,7 +11,8 @@
       pitch and rhythm, while more figuratively, the term can 
       include successions of other musical elements such as tonal color. 
       It may be considered the foreground to the background accompaniment. 
-      A line or part need not be a foreground melody.
+      A line or part need not be a foreground melody. Compared to a chord, 
+      a melody is usually played one not at the time. 
     }
     \line { \null }
   }

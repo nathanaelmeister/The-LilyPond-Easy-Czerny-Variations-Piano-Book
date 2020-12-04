@@ -6,14 +6,13 @@
 }
 
 \markup \draw-hline
-\markup { \vspace #1.5 }
+\markup { \vspace #0.75 }
 
 \markup {
   \column {
-
     \fill-line \large \bold { "Die originalen Werke von Carl Czerny in diesem Buch:" }
     \fill-line \large \bold \italic { "The original works from Carl Czerny in this book:" }
-    \fill-line { \vspace #1.5 }
+    \fill-line { \vspace #0.75 }
   }
 }
 
@@ -47,9 +46,9 @@
 
 \markup {
   \column {
-    \fill-line { \vspace #1 }
+    \fill-line { \vspace #0.5 }
     \fill-line { \fill-line \huge { \char ##x269C }}
-    \fill-line { \vspace #1.5 }
+    \fill-line { \vspace #0.75 }
   }
 }
 
@@ -77,16 +76,26 @@
       \line \tiny { \null "nach" "-" \italic "from:" "Op. 824, Nr. 10" \null }
       \line \tiny { \null "nach" "-" \italic "from:" "Op. 824, Nr. 12" \null }
       \line \tiny { \null "nach" "-" \italic "from:" "Op. 824, Nr. 14" \null }
-      \line \tiny { \null "nach" "-" \italic "from:" "Op. 599, Nr. 14" \null }
     }
   }
 }
 
 \markup {
   \column {
-    \fill-line { \vspace #1 }
-    \fill-line { \fill-line \huge { \char ##x269C }}
-    \fill-line { \vspace #3 }
+    \fill-line { \vspace #0.5 }
+    \fill-line { \epsfile #X #15 #"./pictures/git-link.eps" }
+    \fill-line { \tiny \with-url #"https://github.com/nathanaelmeister/The-LilyPond-Easy-Czerny-Variations-Piano-Book"
+                  "LilyPond Quell-Code dieses Buches auf Github.com" }
+    \fill-line { \tiny \with-url #"https://github.com/nathanaelmeister/The-LilyPond-Easy-Czerny-Variations-Piano-Book"
+                  "LilyPond source-code of this book on Github.com" }
+    \fill-line {
+      \column { \tiny \smaller \smaller
+        \line { "● " \with-url #"https://github.com/nathanaelmeister/The-LilyPond-Easy-Czerny-Variations-Piano-Book"
+           "https://github.com/nathanaelmeister/The-LilyPond-Easy-Czerny-Variations-Piano-Book" " ●"
+        }
+      }
+    }
+    \fill-line { \vspace #0.1 }
   }
 }
 

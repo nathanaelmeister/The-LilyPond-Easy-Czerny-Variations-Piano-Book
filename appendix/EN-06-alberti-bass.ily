@@ -10,7 +10,9 @@
       Domenico Alberti (1710–1740/46), who used it extensively, 
       although he was not the first to use it. 
       It was also used by Haydn, Mozart, Clementi and Beethoven, 
-      along with many other composers of the Classical period.
+      along with many other composers of the Classical period. 
+      The most common progression is lower-upper-middle-upper. 
+      This pattern usually gets repeated many times.
     }
     \line { \null }
   }
