@@ -2,27 +2,29 @@
 ## Childrens Variations over 12 little pieces originally by Carl Czerny
 ## Kindervariationen über 12 kleine Übungen nach Kompositionen von Carl Czerny
 ### by Nathanael Meister - Op. 7
-*(Version: 0.0.1-46)*
+*(Version: 0.0.1-47)*
 
 
-**Table Of Contents**  
-FIRST PART - The melody for the right hand  
-SECOND PART - The melody for the left hand  
-THIRD PART - The melodies for both hands  
-FOURTH PART - Easy accompaniment with the left hand  
-FIFTH PART - Accompaniment with whole chords  
-SIXTH PART - Arpeggio and "Alberti-Bass" figures in the left hand  
+**Table Of Contents:**  
+
+**FIRST PART** - The melody for the right hand.  
+**SECOND PART** - The melody for the left hand.  
+**THIRD PART** - The melodies for both hands.  
+**FOURTH PART** - Easy accompaniment with the left hand.  
+**FIFTH PART** - Accompaniment with whole chords.  
+**SIXTH PART** - Arpeggio and "Alberti-Bass" figures in the left hand.  
 Appendix  
 Index  
 
 
-**Inhaltsverzeichnis**  
-ERSTER TEIL - Die Melodie für die rechte Hand  
-ZWEITER TEIL - Die Melodie für die linke Hand  
-DRITTER TEIL - Die Melodien für beide Hände  
-VIERTER TEIL - Einfache Begleitung in der linken Hand  
-FüNFTER TEIL - Begleitung mit ganzen Akkorden in der linken Hand  
-SECHSTER TEIL - Arpeggios und "Alberti-Bass" Figuren in der linken Hand  
+**Inhaltsverzeichnis:**  
+
+**ERSTER TEIL** - Die Melodie für die rechte Hand.  
+**ZWEITER TEIL** - Die Melodie für die linke Hand.  
+**DRITTER TEIL** - Die Melodien für beide Hände.  
+**VIERTER TEIL** - Einfache Begleitung in der linken Hand.  
+**FüNFTER TEIL** - Begleitung mit ganzen Akkorden in der linken Hand.  
+**SECHSTER TEIL** - Arpeggios und "Alberti-Bass" Figuren in der linken Hand.  
 Appendix  
 Index  
 
@@ -33,33 +35,33 @@ _______________________________________
 
 
 **In der verwendeten Reihenfolge - In order of appearance:**  
-Nr. 1 nach - from: 100 Recreations; Nr. 1  
-Nr. 2 nach - from: Op. 584, Nr. 1  
-Nr. 3 nach - from: Op. 599, Nr. 14  
-Nr. 4 nach - from: Op. 824, Nr. 7  
-Nr. 5 nach - from: Op. 481, Nr. 2  
-Nr. 6 nach - from: Op. 824, Nr. 6  
-Nr. 7 nach - from: Op. 139, Nr. 2  
-Nr. 8 nach - from: Op. 584, Nr. 2  
-Nr. 9 nach - from: Op. 824, Nr. 12  
-Nr. 10 nach - from: Op. 824, Nr. 10  
-Nr. 11 nach - from: 100 Recreations; Nr. 2  
-Nr. 12 nach - from: Op. 824, Nr. 14  
+**Nr. 1** nach/from: 100 Recreations; Nr. 1  
+**Nr. 2** nach/from: Op. 584, Nr. 1  
+**Nr. 3** nach/from: Op. 599, Nr. 14  
+**Nr. 4** nach/from: Op. 824, Nr. 7  
+**Nr. 5** nach/from: Op. 481, Nr. 2  
+**Nr. 6** nach/from: Op. 824, Nr. 6  
+**Nr. 7** nach/from: Op. 139, Nr. 2  
+**Nr. 8** nach/from: Op. 584, Nr. 2  
+**Nr. 9** nach/from: Op. 824, Nr. 12  
+**Nr. 10** nach/from: Op. 824, Nr. 10  
+**Nr. 11** nach/from: 100 Recreations; Nr. 2  
+**Nr. 12** nach/from: Op. 824, Nr. 14  
 
 
 **Sortiert nach Werknummer - Sorted after opus number:**  
-nach - from: 100 Recreations; Nr. 1  
-nach - from: 100 Recreations; Nr. 2  
-nach - from: Op. 139, Nr. 2  
-nach - from: Op. 481, Nr. 2  
-nach - from: Op. 584, Nr. 1  
-nach - from: Op. 584, Nr. 2  
-nach - from: Op. 599, Nr. 14  
-nach - from: Op. 824, Nr. 6  
-nach - from: Op. 824, Nr. 7  
-nach - from: Op. 824, Nr. 10  
-nach - from: Op. 824, Nr. 12  
-nach - from: Op. 824, Nr. 14  
+nach/from: 100 Recreations; Nr. 1  
+nach/from: 100 Recreations; Nr. 2  
+nach/from: Op. 139, Nr. 2  
+nach/from: Op. 481, Nr. 2  
+nach/from: Op. 584, Nr. 1  
+nach/from: Op. 584, Nr. 2  
+nach/from: Op. 599, Nr. 14  
+nach/from: Op. 824, Nr. 6  
+nach/from: Op. 824, Nr. 7  
+nach/from: Op. 824, Nr. 10  
+nach/from: Op. 824, Nr. 12  
+nach/from: Op. 824, Nr. 14  
 
 ⚜  
 
