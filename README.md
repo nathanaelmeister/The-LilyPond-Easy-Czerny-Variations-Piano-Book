@@ -2,7 +2,7 @@
 ## Childrens Variations over 12 little pieces originally by Carl Czerny
 ## Kindervariationen über 12 kleine Übungen nach Kompositionen von Carl Czerny
 ### by Nathanael Meister - Op. 7
-*(Version: 0.0.1-47)*
+*(Version: 0.0.1-48)*
 
 
 **Table Of Contents:**  
@@ -83,7 +83,7 @@ apt install lilypond
 
 # compile input file with LilyPond
 
-lilypond Czerny-variations-Easy.ly
+lilypond Czerny-Variations-Easy_-_Book_1.ly
 
 ```
 _____________________________________________________________
