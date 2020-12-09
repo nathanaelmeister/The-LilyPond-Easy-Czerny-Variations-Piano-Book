@@ -66,7 +66,7 @@ thirdmelody = {
     d d d d  | %15
     c1       | %16
   }
-} 
+}
 
 fourthmelody = {
   % nach Op. 824, Nr. 7
@@ -108,49 +108,52 @@ fifthmelody = {
 
 sixthmelody = {
   % nach Op. 824, Nr. 6
-  c2 c4   | %1
-  e2 e4   | %2
-  d2 d4   | %3
-  g2.     | %4
-  g4 e c  | %5
-  g'4 e c | %6
-  e2.     | %7
-  d       | %8
-  c2 c4   | %9
-  e2 e4   | %10
-  d2 d4   | %11
-  g2.     | %12
-  g4 e g  | %13
-  f e d   | %14
-  c c e   | %15
-  c2.     | %16
-  \bar "|." 
+  \repeat volta 2 {
+    c2 c4   | %1
+    e2 e4   | %2
+    d2 d4   | %3
+    g2.     | %4
+    g4 e c  | %5
+    g'4 e c | %6
+    e2.     | %7
+    d       | %8
+    c2 c4   | %9
+    e2 e4   | %10
+    d2 d4   | %11
+    g2.     | %12
+    g4 e g  | %13
+    f e d   | %14
+    c c e   | %15
+    c2.     | %16
+  }
 }
 
 seventhmelody = {
   % nach Op. 139, Nr. 2
-  e4 e g e | %1
-  c c e c  | %2
-  d d f d  | %3
-  e e e e  | %4
-  e e g e  | %5
-  c c e c  | %6
-  d f e d  | %7
-  c e c2   | %8
-  \bar "|."
+  \repeat volta 2 {
+    e4 e g e | %1
+    c c e c  | %2
+    d d f d  | %3
+    e e e e  | %4
+    e e g e  | %5
+    c c e c  | %6
+    d f e d  | %7
+    c e c2   | %8
+  }
 }
 
 eighthmelody = {
   % nach Op. 584, Nr. 2
-  c4 d e f | %1
-  g e g e  | %2
-  d f d f  | %3
-  e2 e     | %4
-  g4 f e d | %5
-  c e g e  | %6
-  f d f d  | %7
-  c1       | %8
-  \bar "|." 
+  \repeat volta 2 {
+    c4 d e f | %1
+    g e g e  | %2
+    d f d f  | %3
+    e2 e     | %4
+    g4 f e d | %5
+    c e g e  | %6
+    f d f d  | %7
+    c1       | %8
+  }
 }
 
 ninthmelody = {

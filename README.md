@@ -2,7 +2,7 @@
 ## Childrens Variations over 12 little pieces originally by Carl Czerny
 ## Kindervariationen über 12 kleine Übungen nach Kompositionen von Carl Czerny
 ### by Nathanael Meister - Op. 7
-*(Version: 0.0.1-48)*
+*(Version: 0.0.2-50)*
 
 
 **Table Of Contents:**  

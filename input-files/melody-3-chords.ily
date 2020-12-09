@@ -82,7 +82,7 @@ fourthMelChords = {
     \bar "||"
     d4\f( e) f( d) | %9
     e2 g           | %10
-    d4\p( e) f( g) | %11
+    d4\p( e f g)   | %11
     e2 g           | %12
     c,4\f( e) g2   | %13
     c,4( e) g2     | %14

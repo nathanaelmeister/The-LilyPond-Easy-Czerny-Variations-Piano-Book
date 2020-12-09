@@ -14,11 +14,11 @@
       }
       \line {
         \abs-fontsize #5.2 \with-color #grey \bold { "ǀ" }
-        " This Typeset is done by using"
-        \with-url #"http://www.lilypond.org" " LilyPond "
+        "  Vers. 0.0.2-50 ● Typeset with"
+        \with-url #"http://www.lilypond.org" "LilyPond"
         #(string-append (lilypond-version))
         "● Educational copying welcome. "
-        \abs-fontsize #5.2 \with-color #grey \bold { "ǀ" }
+        \abs-fontsize #5.2 \with-color #grey \bold { " ǀ" }
       }
     }
   }

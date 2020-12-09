@@ -33,11 +33,11 @@
   }
  }
 
-\markup { \vspace #1.5 }
+\markup { \vspace #1 }
 \markup {
   \fill-line \huge \larger { \char ##x269C }
 }
-\markup {  \vspace #2 }
+\markup {  \vspace #1.5 }
 
 %Table of Contens
 \label #'toc

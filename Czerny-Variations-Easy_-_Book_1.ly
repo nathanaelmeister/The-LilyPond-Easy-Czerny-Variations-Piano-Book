@@ -16,6 +16,12 @@
 \markup { \vspace #1 }
 \include "global-files/toc.ily"
 
+\markup { \vspace #4.5
+  \fill-line {
+    \tiny \bold "(Version: 0.0.2-50)"
+  }
+}
+
 \pageBreak
 
 % Erster Teil, die Melodie Rechte Hand ==================
