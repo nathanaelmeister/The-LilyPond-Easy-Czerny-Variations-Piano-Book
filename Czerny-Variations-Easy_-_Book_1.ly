@@ -78,6 +78,7 @@
 }
 
 % Dritter Teil, die Melodie für Beide Hände
+
 \bookpart {
   \label #'dritterTeil
   \label #'thirdPart
@@ -120,6 +121,7 @@
   \label #'vierterTeil
   \label #'fourthPart
   \include "header-files/04-header.ily"
+  \markup { \vspace #1 }
   \include "scores-04-Simple/01-score.ily"
   \include "scores-04-Simple/02-score.ily"
   \include "scores-04-Simple/03-score.ily"

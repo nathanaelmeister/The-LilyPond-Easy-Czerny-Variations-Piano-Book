@@ -70,7 +70,7 @@
       \line { \null }
       \score {
         \new Staff \with { instrumentName = \markup {
-          \number "2." }}
+          \number "1." }}
         \relative c {
           \clef bass
           \time 3/4
@@ -94,7 +94,7 @@
       \vspace #1
       \score {
         \new Staff \with { instrumentName = \markup {
-          \number "3." }}
+          \number "2." }}
         \relative c {
           \clef bass
           \time 3/4

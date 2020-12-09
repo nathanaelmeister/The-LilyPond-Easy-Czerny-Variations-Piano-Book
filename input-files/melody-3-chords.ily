@@ -32,15 +32,16 @@ firstMelChords = {
 
 secondMelChords = {
   % nach Op. 584, Nr. 1
-  c2 e4 e | %1 
-  g g e2  | %2
-  d2 f4 f | %3
-  e2 e    | %4
-  g2 e4 e | %5
-  c4 c e2 | %6
-  f4 f d2 | %7
-  c1      | %8
-  \bar "|."
+  \repeat volta 2 {
+    c2 e4 e | %1 
+    g g e2  | %2
+    d2 f4 f | %3
+    e2 e    | %4
+    g2 e4 e | %5
+    c4 c e2 | %6
+    f4 f d2 | %7
+    c1      | %8
+  }
 }
 
 thirdMelChords = {
@@ -69,37 +70,39 @@ thirdMelChords = {
 
 fourthMelChords = {
   % nach Op. 824, Nr. 7
-  c4\mf( e) g2   | %1
-  c,4( e) g2     | %2
-  f4( d) g( f)   | %3
-  e1             | %4
-  c4( e) g2      | %5
-  c,4( e) g2     | %6
-  f4( d) f( d)   | %7
-  c1             | %8
-  \bar "||"
-  d4\f( e) f( d) | %9
-  e2 g           | %10
-  d4\p( e) f( g) | %11
-  e2 g           | %12
-  c,4\f( e) g2   | %13
-  c,4( e) g2     | %14
-  g4\p( e) f( d) | %15
-  c1             | %16
-  \bar "|."
+  \repeat volta 2 {
+    c4\mf( e) g2   | %1
+    c,4( e) g2     | %2
+    f4( d) g( f)   | %3
+    e1             | %4
+    c4( e) g2      | %5
+    c,4( e) g2     | %6
+    f4( d) f( d)   | %7
+    c1             | %8
+    \bar "||"
+    d4\f( e) f( d) | %9
+    e2 g           | %10
+    d4\p( e) f( g) | %11
+    e2 g           | %12
+    c,4\f( e) g2   | %13
+    c,4( e) g2     | %14
+    g4\p( e) f( d) | %15
+    c1             | %16
+  }
 }
 
 fifthMelChords = {
   % nach Op. 481, Nr. 2
-  g4( e) g( e)    | %1
-  c-. c-. c-. c-. | %2
-  d-. d-. d-. d-. | %3
-  e( c) e( c)     | %4
-  g'( e) g( e)    | %5
-  c-. c-. c-. c-. | %6
-  d( f e d)       | %7
-  c( e) c2        | %8
-  \bar "|."
+  \repeat volta 2 {
+    g4( e) g( e)    | %1
+    c-. c-. c-. c-. | %2
+    d-. d-. d-. d-. | %3
+    e( c) e( c)     | %4
+    g'( e) g( e)    | %5
+    c-. c-. c-. c-. | %6
+    d( f e d)       | %7
+    c( e) c2        | %8
+  }
 }
 
 sixthMelChords = {
@@ -125,25 +128,26 @@ sixthMelChords = {
 
 seventhMelChords = {
   % nach Op. 139, Nr. 2
-  e4 e g( e)      | %1
-  c c e( c)       | %2
-  d d f( d)       | %3
-  e-. e-. e-. e-. | %4
-  e e g( e)       | %5
-  c c e( c)       | %6
-  d( f e d)       | %7
-  c( e) c2        | %8
-  \bar "|."
+  \repeat volta 2 {
+    e4-. e( g e)    | %1
+    c-. c( e c)     | %2
+    d-. d( f d)     | %3
+    e-. e-. e-. e-. | %4
+    e-. e( g e)     | %5
+    c-. c( e c)     | %6
+    d( f e d)       | %7
+    c( e) c2        | %8
+  }
 }
 
 eighthMelChords = {
   % nach Op. 584, Nr. 2
   c8(\mf d e f) g( e) g( e)  | %1
-  d( f) d( f) e4-. e-.       | %2
+  d( f) d( f) e4 e           | %2
   g8( f e d) c( e) g( e)     | %3
   f( d) f( d) e2             | %4
   c8(\p d e f) g( e) g( e)   | %5
-  d( f) d( f) e4-. e-.       | %6
+  d( f) d( f) e4 e           | %6
   g8(\< f e d) c( e) g( e)\! | %7
   g(\> f e d)\! c2           | %8
   \bar "|."
@@ -243,7 +247,7 @@ twelfthMelChords = {
     c4 c d d             | %13
     e e f f              | %14
     e8( g f e) d( f e d) | %15
-    c4 c c r             | %16
+    c4 c c2              | %16
   }
 }
 

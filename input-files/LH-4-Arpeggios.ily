@@ -1,31 +1,34 @@
 firstArpeggio = {
   \repeat volta 2 {
-    c4 g'
-    c, g'
-    b, g'
-    c, g'
-    b, g'
-    b, g'
-    c, g'
-    e g
+    c4 g' | %1
+    c, g' | %2
+    b, g' | %3
+    c, g' | %4
+    b, g' | %5
+    b, g' | %6
+    c, g' | %7
+    e g   | %8
   }
   \repeat volta 2 {
-    b, g'
-    b, g'
-    c, g'
-    c, g'
-    b, g'
-    b, g'
-    c, g'
-    c, g'
-    c, g'
-    e g
-    b, g'
-    c, g'
-    b, g'
-    b, g'
-    c, g'
-    e2
+    b, g' | %9
+    b, g' | %10
+    c, g' | %11
+    c, g' | %12
+    b, g' | %13
+    b, g' | %14
+    c, g' | %15
+    c, g' | %16
+    c, g' | %17
+    e g   | %18
+    b, g' | %19
+    c, g' | %20
+    b, g' | %21
+    b, g' | %22
+    c, g' | %23
+  }
+  \alternative {
+    { e4 g }
+    { e2 \bar "|." }
   }
 }
 
@@ -38,9 +41,11 @@ secondArpeggio = {
     c, g' e g | %5
     c, g' e g | %6
     b, g' d g | %7
-    c, g' e g | %8
   }
-  \bar "|."
+  \alternative {
+    { c, g' e g }
+    { c, g' e2 }
+  }
 }
 
 thirdArpeggio = {
@@ -78,11 +83,11 @@ fourthArpeggio = {
     b,4 g' d g | %9
     c, g' e g  | %10
     b, g' d g  | %11
-    b, g' d g  | %12
+    c, g' e g  | %12
     c, g' e g  | %13
     c, g' e g  | %14
     c, g' d f  | %15
-    c  e c2    | %16
+    e g c,2    | %16
   }
 }
 
@@ -94,10 +99,9 @@ fifthArpeggio = {
     c, g' e g | %4
     c, g' e g | %5
     c, g' e g | %6
-    b, g' d g | %7
-    c, g' e g | %8
+    b, d g f  | %7
+    c g' e c  | %8
   }
-  \bar "|."
 }
 
 sixthArpeggio = {
@@ -116,20 +120,21 @@ sixthArpeggio = {
   c, e g | %13
   b, d g | %14
   c, e g | %15
-  c2.    | %16
+  c, e g | %16
   \bar "|."
 }
 
 seventhArpeggio = {
-  c4 g' e g | %1 
-  c, g' e g | %2
-  b, g' d g | %3
-  c, g' e g | %4
-  c, g' e g | %5
-  c, g' e g | %6
-  b, g' d g | %7
-  c, e c2   | %8
-  \bar "|."
+  \repeat volta 2 {
+    c4 g' e g | %1 
+    c, g' e g | %2
+    b, g' d g | %3
+    c, g' e g | %4
+    c, g' e g | %5
+    c, g' e g | %6
+    b, g' d g | %7
+    c, e c2   | %8
+  }
 }
 
 eighthArpeggio = {
@@ -186,54 +191,54 @@ tenthArpeggio = {
 
 eleventhArpeggio = {
   \repeat volta 2 {
-    c4 g' e
-    g e g
-    b, d g
-    d g d
-    c g' e
-    g e g
-    b, d g
-    e g c,
+    c4 g' e | %1
+    g e g   | %2
+    b, d g  | %3
+    d g d   | %4
+    c g' e  | %5
+    g e g   | %6
+    b, d g  | %7
+    e g c,  | %8
   }
   \repeat volta 2 {
-    b g' d
-    d c b
-    c e d
-    c g' e
-    b g' d
-    d c b
-    c e d
-    c g' e
-    c4 g' e
-    g e g
-    b, d g
-    d g d
-    c g' e
-    g e g
-    b, d g
-    e g c,
+    b g' d  | %9
+    d c b   | %10
+    c e d   | %11 
+    c g' e  | %12
+    b g' d  | %13
+    d c b   | %14
+    c e d   | %15
+    c g' e  | %16
+    c4 g' e | %17
+    g e g   | %18
+    b, d g  | %19
+    d g d   | %20
+    c g' e  | %21
+    g e g   | %22
+    b, d g  | %23
+    e g c,  | %24
   }
 }
 
 twelfthArpeggio = {
   \repeat volta 2 {
-    c4 g' b, g'
-    c, g' e g
-    b, g' c, g'
-    b, g' d g
-    c, g' d g
-    c, g' d g
-    d g c, g'
-    e g e2
+    c4 g' b, g' | %1
+    c, g' e g   | %2
+    b, g' c, g' | %3
+    b, g' d g   | %4
+    c, g' d g   | %5
+    c, g' d g   | %6
+    d g c, g'   | %7
+    e g e2      | %8
   }
   \repeat volta 2 {
-    b4 g' d g
-    c, g' e g
-    b, g' f g
-    c, g' e g
-    c, g' b, g'
-    c, g' d g
-    c, g' b, g'
-    c, e c r
-  }    
+    b4 g' d g   | %9
+    c, g' e g   | %10
+    b, g' f g   | %11
+    c, g' e g   | %12
+    c, g' b, g' | %13
+    c, g' d g   | %14
+    c, g' b, g' | %15
+    c, e g c,   | %16
+  }
 }

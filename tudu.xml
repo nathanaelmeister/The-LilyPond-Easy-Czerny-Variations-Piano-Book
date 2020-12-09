@@ -19,17 +19,17 @@
 		<text>
 </text>
 		<todo done="yes" collapse="no">
-			<title>Teil 1</title>
+			<title>Teil 1 - Right Hand</title>
 			<text>
 </text>
 		</todo>
 		<todo done="yes" collapse="no">
-			<title>Teil 2</title>
+			<title>Teil 2 - Left Hand</title>
 			<text>
 </text>
 		</todo>
 		<todo done="no" collapse="yes">
-			<title>Teil 3</title>
+			<title>Teil 3 - Both Hands</title>
 			<text>
 </text>
 			<todo done="yes" collapse="no">
@@ -40,7 +40,7 @@ maybe use \firstmelodyA with \easyHeads and \firstmelodyB without \easyHeads
 			</todo>
 		</todo>
 		<todo done="no" collapse="yes">
-			<title>Teil 4</title>
+			<title>Teil 4 - Simple Bass</title>
 			<text>
 </text>
 			<todo done="yes" collapse="no">
@@ -50,7 +50,7 @@ maybe use \firstmelodyA with \easyHeads and \firstmelodyB without \easyHeads
 			</todo>
 		</todo>
 		<todo done="no" collapse="yes">
-			<title>Teil 5</title>
+			<title>Teil 5 - Chords</title>
 			<text>
 </text>
 			<todo done="yes" collapse="no">
@@ -70,7 +70,7 @@ maybe use \firstmelodyA with \easyHeads and \firstmelodyB without \easyHeads
 			</todo>
 		</todo>
 		<todo done="no" collapse="no">
-			<title>Teil 6</title>
+			<title>Teil 6 - Arpeggios</title>
 			<text>
 </text>
 			<todo done="no" collapse="no">
@@ -95,6 +95,11 @@ maybe use \firstmelodyA with \easyHeads and \firstmelodyB without \easyHeads
 			</todo>
 		</todo>
 		<todo done="no" collapse="no">
+			<title>Teil 7 - Add Czerny originals</title>
+			<text>
+</text>
+		</todo>
+		<todo done="no" collapse="no">
 			<title>Appendix</title>
 			<text>
 </text>
@@ -110,6 +115,11 @@ maybe use \firstmelodyA with \easyHeads and \firstmelodyB without \easyHeads
 			</todo>
 			<todo done="yes" collapse="no">
 				<title>move last line to footer</title>
+				<text>
+</text>
+			</todo>
+			<todo done="no" collapse="no">
+				<title>add Bourdone Bass for Nr.1</title>
 				<text>
 </text>
 			</todo>

@@ -26,21 +26,28 @@ firstMelArp = {
     d4 d  | %21
     f d   | %22
     c e   | %23
-    c2    | %24 
+  }
+  \alternative {
+    { c2 }
+    { c2 \bar "|." }
   }
 }
 
 secondMelArp = {
   % nach Op. 584, Nr. 1
-  c2 e4 e | %1 
-  g g e2  | %2
-  d2 f4 f | %3
-  e2 e    | %4
-  g2 e4 e | %5
-  c4 c e2 | %6
-  f4 f d2 | %7
-  c1      | %8
-  \bar "|."
+  \repeat volta 2 {
+    c2 e4 e | %1 
+    g g e2  | %2
+    d2 f4 f | %3
+    e2 e    | %4
+    g2 e4 e | %5
+    c4 c e2 | %6
+    f4 f d2 | %7
+  }
+  \alternative {
+    { c1 }
+    { c1 \bar "|." }
+  }
 }
 
 thirdMelArp = {
@@ -58,7 +65,7 @@ thirdMelArp = {
   g2( e)             | %10
   f4-. f-. f-. f-.   | %11
   e1                 | %12
-  e4-. e-. e-. e-.   | %13
+  e4-.\mf e-. e-. e-.   | %13
   g2( e)             | %14
   d4-._\markup {
     \italic "rit."}
@@ -125,15 +132,16 @@ sixthMelArp = {
 
 seventhMelArp = {
   % nach Op. 139, Nr. 2
-  e4 e g( e)      | %1
-  c c e( c)       | %2
-  d d f( d)       | %3
-  e-. e-. e-. e-. | %4
-  e e g( e)       | %5
-  c c e( c)       | %6
-  d( f e d)       | %7
-  c( e) c2        | %8
-  \bar "|."
+  \repeat volta 2 {
+    e4-. e( g e)    | %1
+    c-. c( e c)     | %2
+    d-. d( f d)     | %3
+    e-. e-. e-. e-. | %4
+    e-. e( g e)     | %5
+    c-. c( e c)     | %6
+    d( f e d)       | %7
+    c( e) c2        | %8
+  }
 }
 
 eighthMelArp = {
@@ -172,78 +180,78 @@ ninthMelArp = {
 
 tenthMelArp = {
   % nach Op. 824, Nr. 10
-  g4 g g  | %1
-  g2( e4) | %2
-  e e e   | %3
-  e2( c4) | %4
-  d d d   | %5
-  f( e d) | %6
-  e2( g4) | %7
-  c,2.    | %8
-  g'4 g g | %9
-  g2( e4) | %10
-  e4 e e  | %11
-  e2( c4) | %12
-  d d d   | %13
-  d( e d) | %14
-  c2( e4) | %15
-  c2.     | %16
+  g4\mf g g       | %1
+  g2( e4)         | %2
+  e e e           | %3
+  e2( c4)         | %4
+  d d d           | %5
+  f( e d)         | %6
+  e2( g4)         | %7
+  c,2.            | %8
+  g'4\p-. g-. g-. | %9
+  g2( e4)         | %10
+  e4-. e-. e-.    | %11
+  e2( c4)         | %12
+  d-. d-. d-.     | %13
+  d( e d)         | %14
+  c2( e4)         | %15
+  c2.             | %16
   \bar "|."
 }
 
 eleventhMelArp = {
   % 100 Recreations Nr. 2
   \repeat volta 2 {
-    c4 d e | %01
-    e e e  | %02
-    d e f  | %03
-    f f f  | %04
-    e f g  | %05
-    g g g  | %06
-    g f d  | %07
-    c2.    | %08
+    c4\( d e       | %01
+    e\)-. e-. e-.  | %02
+    d\( e f        | %03
+    f\)-. f-. f-.  | %04
+    e\( f g        | %05
+    g\)-. g-. g-.  | %06
+    g\( f d        | %07
+    c2.\)          | %08
   }
   \repeat volta 2 {
-    d4 e f | %09
-    f e d  | %10
-    e g f  | %11
-    e d c  | %12
-    d e f  | %13
-    f e d  | %14
-    e g f  | %15
-    e d c  | %16
-    c d e  | %17
-    e e e  | %18
-    d e f  | %19
-    f f f  | %20
-    e f g  | %21
-    g g g  | %22
-    g f d  | %23
-    c2.    | %24
+    d4( e f)    | %09
+    f( e d)     | %10
+    e( g f)     | %11
+    e( d c)     | %12
+    d( e f)     | %13
+    f( e d)     | %14
+    e( g f)     | %15
+    e( d c)     | %16
+    c( d e)     | %17
+    e-. e-. e-. | %18
+    d( e f)     | %19
+    f-. f-. f-. | %20
+    e( f g)     | %21
+    g-. g-. g-. | %22
+    g( f d      | %23
+    c2.)        | %24
   }
 }
 
 twelfthMelArp = {
   % Taktschule; Op. 824; Nr. 14
   \repeat volta 2 {
-    c4 c d d             | %01
-    e2 c4 c              | %02
-    d d e e              | %03
-    f2 d4 d              | %04
-    e e f f              | %05
-    g g f8( e d e)       | %06
-    f4 f g8( f e d)      | %07
-    c4 e c2              | %08
+    c4\( c d d           | %01
+    e2 c4-.\) c-.        | %02
+    d\( d e e            | %03
+    f2 d4\)-. d-.        | %04
+    e\( e f f            | %05
+    g\)-. g f8( e d e)   | %06
+    f4-. f g8( f e d)    | %07
+    c4\( e c2\)          | %08
   }
   \repeat volta 2 {
-    d4 g d g             | %09
+    d4( g) d( g)         | %09
     e8( f g e) c2        | %10
-    d4 g d g             | %11
+    d4( g) d( g)         | %11
     e8( f g e) c2        | %12
     c4 c d d             | %13
     e e f f              | %14
     e8( g f e) d( f e d) | %15
-    c4 c c r             | %16
+    c4-. c c2            | %16
   }
 }
 

@@ -7,10 +7,10 @@
     }
     \relative c'' {
       \override Score.NonMusicalPaperColumn.padding = #2
-
       \clef treble
       \time 3/4
       \key c \major
+      \tempo "Allegro"
 
       \eleventhMelArp
     }
