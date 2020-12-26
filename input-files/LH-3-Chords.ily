@@ -287,13 +287,16 @@ twelfthChords = {
     <c e g>1         | %8
   }
   \repeat volta 2 {
-    <b d g>2~ <b d g> | %9
-    <c e g>~ <c e g>  | %10
-    <b d g> <b d g>   | %11
-    <c e g> <c e g>   | %12
-    <c e g> <b d g>   | %13
+    <b d g>1          | %9
+    <c e g>           | %10
+    <b d g>2 <b d g>  | %11
+    <c e g>1          | %12
+    <c e g>2 <b d g>  | %13
     <c e g> <b d g>   | %14
     <c e g> <b d g>   | %15
-    <c e g>1          | %16
   }
+  \alternative {
+    { <c e g>1 }
+    { <c e g>2 <c e g>4 r }
+  }                   | %16
 }

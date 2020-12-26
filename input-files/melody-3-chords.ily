@@ -230,7 +230,7 @@ eleventhMelChords = {
 twelfthMelChords = {
   % Taktschule; Op. 824; Nr. 14
   \repeat volta 2 {
-    c4 c d d             | %01
+    c4\mf c d d          | %01
     e2 c4 c              | %02
     d d e e              | %03
     f2 d4 d              | %04
@@ -240,14 +240,16 @@ twelfthMelChords = {
     c4 e c2              | %08
   }
   \repeat volta 2 {
-    d4 g d g             | %09
+    d4\f g d g           | %09
     e8( f g e) c2        | %10
-    d4 g d g             | %11
+    d4\p g d g           | %11
     e8( f g e) c2        | %12
-    c4 c d d             | %13
+    c4\mf c d d          | %13
     e e f f              | %14
     e8( g f e) d( f e d) | %15
-    c4 c c2              | %16
   }
+  \alternative {
+    { c4 c c2 }
+    { c4 c c r }
+  }                      | %16
 }
-

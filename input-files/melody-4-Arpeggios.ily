@@ -36,13 +36,13 @@ firstMelArp = {
 secondMelArp = {
   % nach Op. 584, Nr. 1
   \repeat volta 2 {
-    c2 e4 e | %1 
-    g g e2  | %2
-    d2 f4 f | %3
-    e2 e    | %4
-    g2 e4 e | %5
-    c4 c e2 | %6
-    f4 f d2 | %7
+    c2 e4 e | %01 
+    g g e2  | %02
+    d2 f4 f | %03
+    e2 e    | %04
+    g2 e4 e | %05
+    c4 c e2 | %06
+    f4 f d2 | %07
   }
   \alternative {
     { c1 }
@@ -52,122 +52,124 @@ secondMelArp = {
 
 thirdMelArp = {
   % Op. 599; Nr. 14
-  e4\f-. e-. e-. e-. | %1
-  g2( e)             | %2
-  f4-. f-. f-. f-.   | %3
-  e1                 | %4
-  e4-. e-. e-. e-.   | %5
-  g2( e)             | %6
-  d4-. d-. d-. d-.   | %7
-  c1                 | %8
+  e4\f-. e-. e-. e-.  | %01
+  g2( e)              | %02
+  f4-. f-. f-. f-.    | %03
+  e1                  | %04
+  e4-. e-. e-. e-.    | %05
+  g2( e)              | %06
+  d4-. d-. d-. d-.    | %07
+  c1                  | %08
   \bar "||"
-  e4\p-. e-. e-. e-. | %9
-  g2( e)             | %10
-  f4-. f-. f-. f-.   | %11
-  e1                 | %12
-  e4-.\mf e-. e-. e-.   | %13
-  g2( e)             | %14
+  e4\p-. e-. e-. e-.  | %09
+  g2( e)              | %10
+  f4-. f-. f-. f-.    | %11
+  e1                  | %12
+  e4-.\mf e-. e-. e-. | %13
+  g2( e)              | %14
   d4-._\markup {
     \italic "rit."}
-  d-. d-. d-.        | %15
-  c1                 | %16
+  d-. d-. d-.         | %15
+  c1                  | %16
   \bar "|."
 }
 
 fourthMelArp = {
   % nach Op. 824, Nr. 7
-  c4( e) g2   | %1
-  c,4( e) g2     | %2
-  f4( d) g( f)   | %3
-  e1             | %4
-  c4( e) g2      | %5
-  c,4( e) g2     | %6
-  f4( d) f( d)   | %7
-  c1             | %8
+  c4( e) g2    | %01
+  c,4( e) g2   | %02
+  f4( d) g( f) | %03
+  e1           | %04
+  c4( e) g2    | %05
+  c,4( e) g2   | %06
+  f4( d) f( d) | %07
+  c1           | %08
   \bar "||"
-  d4( e) f( d) | %9
-  e2 g           | %10
+  d4( e) f( d) | %09
+  e2 g         | %10
   d4( e) f( g) | %11
-  e2 g           | %12
+  e2 g         | %12
   c,4( e) g2   | %13
-  c,4( e) g2     | %14
+  c,4( e) g2   | %14
   g4( e) f( d) | %15
-  c1             | %16
+  c1           | %16
   \bar "|."
 }
 
 fifthMelArp = {
   % nach Op. 481, Nr. 2
-  g4( e) g( e)    | %1
-  c-. c-. c-. c-. | %2
-  d-. d-. d-. d-. | %3
-  e( c) e( c)     | %4
-  g'( e) g( e)    | %5
-  c-. c-. c-. c-. | %6
-  d( f e d)       | %7
-  c( e) c2        | %8
-  \bar "|."
+  \repeat volta 2 {
+    g4( e) g( e)    | %01
+    c-. c-. c-. c-. | %02
+    d-. d-. d-. d-. | %03
+    e( c) e( c)     | %04
+    g'( e) g( e)    | %05
+    c-. c-. c-. c-. | %06
+    d( f e d)       | %07
+    c( e) c2        | %08
+  }
 }
 
 sixthMelArp = {
   % nach Op. 824, Nr. 6
-  c2 c4   | %1
-  e2 e4   | %2
-  d2 d4   | %3
-  g2.     | %4
-  g4 e c  | %5
-  g'4 e c | %6
-  e2.     | %7
-  d       | %8
-  c2 c4   | %9
-  e2 e4   | %10
-  d2 d4   | %11
-  g2.     | %12
-  g4 e g  | %13
-  f e d   | %14
-  c c e   | %15
-  c2.     | %16
-  \bar "|."
+  \repeat volta 2 {
+    c2 c4   | %01
+    e2 e4   | %02
+    d2 d4   | %03
+    g2.     | %04
+    g4 e c  | %05
+    g'4 e c | %06
+    e2.     | %07
+    d       | %08
+    c2 c4   | %09
+    e2 e4   | %10
+    d2 d4   | %11
+    g2.     | %12
+    g4 e g  | %13
+    f e d   | %14
+    c c e   | %15
+    c2.     | %16
+  }
 }
 
 seventhMelArp = {
   % nach Op. 139, Nr. 2
   \repeat volta 2 {
-    e4-. e( g e)    | %1
-    c-. c( e c)     | %2
-    d-. d( f d)     | %3
-    e-. e-. e-. e-. | %4
-    e-. e( g e)     | %5
-    c-. c( e c)     | %6
-    d( f e d)       | %7
-    c( e) c2        | %8
+    e4-. e( g e)    | %01
+    c-. c( e c)     | %02
+    d-. d( f d)     | %03
+    e-. e-. e-. e-. | %04
+    e-. e( g e)     | %05
+    c-. c( e c)     | %06
+    d( f e d)       | %07
+    c( e) c2        | %08
   }
 }
 
 eighthMelArp = {
   % nach Op. 584, Nr. 2
-  c8(\mf d e f) g( e) g( e)  | %1
-  d( f) d( f) e4-. e-.       | %2
-  g8( f e d) c( e) g( e)     | %3
-  f( d) f( d) e2             | %4
-  c8(\p d e f) g( e) g( e)   | %5
-  d( f) d( f) e4-. e-.       | %6
-  g8(\< f e d) c( e) g( e)\! | %7
-  g(\> f e d)\! c2           | %8
+  c8(\mf d e f) g( e) g( e)  | %01
+  d( f) d( f) e4-. e-.       | %02
+  g8( f e d) c( e) g( e)     | %03
+  f( d) f( d) e2             | %04
+  c8(\p d e f) g( e) g( e)   | %05
+  d( f) d( f) e4-. e-.       | %06
+  g8(\< f e d) c( e) g( e)\! | %07
+  g(\> f e d)\! c2           | %08
   \bar "|."
 }
 
 ninthMelArp = {
   % nach Op. 824, Nr. 12
-  c2 c4(   | %1
-  e2) e4(  | %2
-  g2) g4(  | %3
-  e2) e4(  | %4
-  d2) d4   | %5
-  d4( e f) | %6
-  e2.      | %7
-  e2.      | %8
-  c2 c4(   | %9
+  c2 c4(   | %01
+  e2) e4(  | %02
+  g2) g4(  | %03
+  e2) e4(  | %04
+  d2) d4   | %05
+  d4( e f) | %06
+  e2.      | %07
+  e2.      | %08
+  c2 c4(   | %09
   e2) e4(  | %10
   g2) g4(  | %11
   e2) e4   | %12
@@ -180,15 +182,15 @@ ninthMelArp = {
 
 tenthMelArp = {
   % nach Op. 824, Nr. 10
-  g4\mf g g       | %1
-  g2( e4)         | %2
-  e e e           | %3
-  e2( c4)         | %4
-  d d d           | %5
-  f( e d)         | %6
-  e2( g4)         | %7
-  c,2.            | %8
-  g'4\p-. g-. g-. | %9
+  g4\mf g g       | %01
+  g2( e4)         | %02
+  e e e           | %03
+  e2( c4)         | %04
+  d d d           | %05
+  f( e d)         | %06
+  e2( g4)         | %07
+  c,2.            | %08
+  g'4\p-. g-. g-. | %09
   g2( e4)         | %10
   e4-. e-. e-.    | %11
   e2( c4)         | %12
@@ -222,7 +224,7 @@ eleventhMelArp = {
     e( d c)      | %16
     c( d e       | %17
     e)-. e-. e-. | %18
-    d( e f      | %19
+    d( e f       | %19
     f)-. f-. f-. | %20
     e( f g       | %21
     g)-. g-. g-. | %22
@@ -251,7 +253,7 @@ twelfthMelArp = {
     c4 c d d             | %13
     e e f f              | %14
     e8( g f e) d( f e d) | %15
-    c4-. c c2            | %16
+    c4-. c-. c2          | %16
   }
 }
 
