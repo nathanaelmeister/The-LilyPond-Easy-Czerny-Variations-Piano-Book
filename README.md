@@ -2,7 +2,7 @@
 ## Childrens Variations over 12 little pieces originally by Carl Czerny
 ## Kindervariationen über 12 kleine Übungen nach Kompositionen von Carl Czerny
 ### by Nathanael Meister - Op. 7
-*(Version: 0.0.2-50)*
+*(Version: 0.0.2-52)*
 
 
 **Table Of Contents:**  
@@ -27,6 +27,16 @@ Index
 **SECHSTER TEIL** - Arpeggios und "Alberti-Bass" Figuren in der linken Hand.  
 Appendix  
 Index  
+_______________________________________
+
+**Preview - Vorschau**
+
+![FIRST PART - The Melody for the right hand](./pictures/preview/preview-crop-03.png)
+![SECOND PART - The melody for the left hand](./pictures/preview/preview-crop-07.png)
+![THIRD PART - The melodies for both hands](./pictures/preview/preview-crop-11.png)
+![FOURTH PART - Easy accompaniment with the left hand](./pictures/preview/preview-crop-17.png)
+![FIFTH PART - Accompaniment with whole chords](./pictures/preview/preview-crop-22.png)
+![SIXTH PART - Arpeggio and "Alberti-Bass" in the left hand](./pictures/preview/preview-crop-29.png)
 
 _______________________________________
 

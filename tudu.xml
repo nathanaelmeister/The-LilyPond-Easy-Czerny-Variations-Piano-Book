@@ -13,13 +13,48 @@
 
 </text>
 		</todo>
-		<todo done="no" collapse="no">
+		<todo done="yes" collapse="no">
 			<title>add preview pictures into README.md</title>
 			<text>
 </text>
 		</todo>
-		<todo done="no" collapse="no">
+		<todo done="yes" collapse="no">
 			<title>add preview picture into SETTINGS</title>
+			<text>
+</text>
+		</todo>
+	</todo>
+	<todo done="no" collapse="no">
+		<title>Second Book</title>
+		<text>
+</text>
+		<todo done="no" collapse="no">
+			<title>Add template title page with CoF</title>
+			<text>
+</text>
+		</todo>
+		<todo done="no" collapse="no">
+			<title>merge first book into one file</title>
+			<text>
+</text>
+		</todo>
+		<todo done="no" collapse="no">
+			<title>write shell-script to process all keys</title>
+			<text>
+</text>
+		</todo>
+		<todo done="no" collapse="no">
+			<title>compile-first Book-Number-2</title>
+			<text>
+</text>
+		</todo>
+		<todo done="no" collapse="no">
+			<title>Review book</title>
+			<text>
+</text>
+		</todo>
+		<todo done="no" collapse="no">
+			<title>Publish first release</title>
 			<text>
 </text>
 		</todo>
@@ -182,7 +217,7 @@ maybe use \firstmelodyA with \easyHeads and \firstmelodyB without \easyHeads
 </text>
 		</todo>
 	</todo>
-	<todo done="no" collapse="no">
+	<todo done="no" collapse="yes">
 		<title>Translation</title>
 		<text>
 </text>
