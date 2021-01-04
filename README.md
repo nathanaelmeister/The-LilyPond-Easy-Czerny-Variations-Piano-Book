@@ -1,3 +1,5 @@
+![Hands off Assange!!!](http://somersetbean.com/wp-content/uploads/2018/10/free-assange-banner-8ftx2ft-150ppi-WEB.jpg)
+
 # Piano School - The [LilyPond](http://www.lilypond.org) Easy Czerny Variations
 ## Childrens Variations over 12 little pieces originally by Carl Czerny
 ## Kindervariationen über 12 kleine Übungen nach Kompositionen von Carl Czerny
@@ -29,15 +31,34 @@ Appendix
 Index  
 _______________________________________
 
-**Preview - Vorschau**
+**1.) Preview - Vorschau**
 
 ![FIRST PART - The Melody for the right hand](./pictures/preview/preview-crop-03.png)
-![SECOND PART - The melody for the left hand](./pictures/preview/preview-crop-07.png)
-![THIRD PART - The melodies for both hands](./pictures/preview/preview-crop-11.png)
-![FOURTH PART - Easy accompaniment with the left hand](./pictures/preview/preview-crop-17.png)
-![FIFTH PART - Accompaniment with whole chords](./pictures/preview/preview-crop-22.png)
-![SIXTH PART - Arpeggio and "Alberti-Bass" in the left hand](./pictures/preview/preview-crop-29.png)
+_______________________________________
 
+**2.) Preview - Vorschau**
+
+![SECOND PART - The melody for the left hand](./pictures/preview/preview-crop-07.png)
+_______________________________________
+
+**3.) Preview - Vorschau**
+
+![THIRD PART - The melodies for both hands](./pictures/preview/preview-crop-11.png)
+_______________________________________
+
+**4.) Preview - Vorschau**
+
+![FOURTH PART - Easy accompaniment with the left hand](./pictures/preview/preview-crop-17.png)
+_______________________________________
+
+**5.) Preview - Vorschau**
+
+![FIFTH PART - Accompaniment with whole chords](./pictures/preview/preview-crop-22.png)
+_______________________________________
+
+**6.) Preview - Vorschau**
+
+![SIXTH PART - Arpeggio and "Alberti-Bass" in the left hand](./pictures/preview/preview-crop-29.png)
 _______________________________________
 
 **Die originalen Werke von Carl Czerny in diesem Buch:**  

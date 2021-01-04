@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE tudu SYSTEM "/usr/share/tudu/tudu.dtd">
 <todo>
-	<todo done="no" collapse="no">
+	<todo done="no" collapse="yes">
 		<title>GIT commit</title>
 		<text>
 </text>
@@ -25,12 +25,24 @@
 		</todo>
 	</todo>
 	<todo done="no" collapse="no">
+		<title>File-management</title>
+		<text>
+</text>
+		<todo done="no" collapse="no">
+			<title>find and remove obsolete files</title>
+			<text>- especially within the ./scores*/ directories
+
+</text>
+		</todo>
+	</todo>
+	<todo done="no" collapse="no">
 		<title>Second Book</title>
 		<text>
 </text>
 		<todo done="no" collapse="no">
 			<title>Add template title page with CoF</title>
-			<text>
+			<text>Circle-of-Fifth-Template should be found in:
+Nathanael_Meister/Piano/Circleizer/
 </text>
 		</todo>
 		<todo done="no" collapse="no">
@@ -306,6 +318,13 @@ where does it come from =&gt; postponed
 				<todo done="no" collapse="no">
 					<title>Override include</title>
 					<text>
+</text>
+				</todo>
+				<todo done="no" collapse="no">
+					<title>Use scalable Diagramm</title>
+					<text>script/scheme-code-snippet is used for title page
+in "Meister,_Nathanel/First_two_hand_exercises/global-files/frontpage.ly"
+the code can be found in the same directory: "keyboard-diagramm.ily"
 </text>
 				</todo>
 			</todo>
